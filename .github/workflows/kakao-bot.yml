@@ -38,12 +38,13 @@ jobs:
       - name: Load secrets from Infisical
         uses: Infisical/secrets-action@v1.0.15
         with:
-          host: https://app.infisical.com
-          projectId: ${{ secrets.INFISICAL_PROJECT_ID }}
-          environment: prod
-          path: /KAKAO
-          identityId: ${{ secrets.INFISICAL_IDENTITY_ID }}
-          identitySecret: ${{ secrets.INFISICAL_IDENTITY_SECRET }}
+          method: universal
+          domain: https://app.infisical.com
+          project-slug: ${{ secrets.INFISICAL_PROJECT_ID }}
+          env-slug: prod
+          secret-path: /KAKAO
+          identity-id: ${{ secrets.INFISICAL_IDENTITY_ID }}
+          client-secret: ${{ secrets.INFISICAL_IDENTITY_SECRET }}
 
       - name: Install dependencies
         run: |
