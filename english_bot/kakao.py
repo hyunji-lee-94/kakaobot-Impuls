@@ -13,6 +13,7 @@ class KakaoClient:
         self.client_secret = client_secret
 
     def refresh_access_token(self) -> str:
+        print("[DEBUG] refresh_access_token() called")
         payload = {
             "grant_type": "refresh_token",
             "client_id": self.rest_api_key,
@@ -21,9 +22,12 @@ class KakaoClient:
         if self.client_secret:
             payload["client_secret"] = self.client_secret
 
+        print("[DEBUG] Sending request to Kakao...")
         r = requests.post(KAKAO_TOKEN_URL, data=payload, timeout=30)
+        print(f"[DEBUG] Response status: {r.status_code}")
         r.raise_for_status()
         data = r.json()
+        print("[DEBUG] Token response received")
         
         # 새 refresh_token이 발급되면 경고만 출력 (토큰 값은 보안상 출력 안 함)
         if "refresh_token" in data:

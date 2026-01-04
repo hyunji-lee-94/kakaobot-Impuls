@@ -62,18 +62,25 @@ def process_track(track: str, mode: str, entries, tstate, tz: str, kakao: KakaoC
     raise ValueError("mode must be morning|night")
 
 def run(mode: str):
+    print("[DEBUG] Starting run...")
     s = load_settings()
+    print("[DEBUG] Settings loaded")
     st = load_state(s.state_path)
+    print("[DEBUG] State loaded")
 
     ym = month_key(s.timezone)
     path_c = f"{s.idiom_dir}/c_idioms_{ym}.json"
     path_b = f"{s.idiom_dir}/b_idioms_{ym}.json"
 
     entries_c = load_entries(path_c)
+    print(f"[DEBUG] Loaded {len(entries_c)} entries from C")
     entries_b = load_entries(path_b)
+    print(f"[DEBUG] Loaded {len(entries_b)} entries from B")
 
     kakao = KakaoClient(s.kakao_rest_api_key, s.kakao_refresh_token, s.kakao_client_secret)
+    print("[DEBUG] KakaoClient created, refreshing token...")
     access = kakao.refresh_access_token()
+    print("[DEBUG] Access token obtained!")
 
     # ✅ 낮/밤 모두 C 따로, B 따로 전송
     process_track("c", mode, entries_c, st.c, s.timezone, kakao, access)
