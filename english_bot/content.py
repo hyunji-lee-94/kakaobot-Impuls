@@ -1,15 +1,19 @@
 from __future__ import annotations
 import json, random
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Iterable
+
+@dataclass(frozen=True)
+class Example:
+    en: str
+    ko: str
 
 @dataclass(frozen=True)
 class Entry:
     id: str
     idiom: str
     meaning_ko: str
-    example_en: str
-    example_ko: str
+    examples: tuple[Example, ...]  # 여러 예문 지원
 
 def load_entries(path: str) -> list[Entry]:
     try:
@@ -29,12 +33,24 @@ def load_entries(path: str) -> list[Entry]:
     # "있다고 가정"한 스키마를 최소한으로 강제
     out = []
     for i, r in enumerate(raw):
+        # 새 형식: examples 배열
+        if "examples" in r:
+            examples = tuple(
+                Example(en=ex.get("en", ""), ko=ex.get("ko", ""))
+                for ex in r["examples"]
+            )
+        # 기존 형식: example_en, example_ko (하위 호환)
+        else:
+            examples = (Example(
+                en=r.get("example_en", ""),
+                ko=r.get("example_ko", "")
+            ),)
+        
         out.append(Entry(
             id=str(r.get("id", f"{path}:{i}")),
             idiom=r["idiom"] if "idiom" in r else r["expression"],
             meaning_ko=r["meaning_ko"],
-            example_en=r.get("example_en",""),
-            example_ko=r["example_ko"],
+            examples=examples,
         ))
     return out
 

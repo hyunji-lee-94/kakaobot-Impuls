@@ -22,9 +22,15 @@ def morning_message(tz: str, items: list[Entry]) -> str:
         lines.append(f"▸ {e.idiom}")
         lines.append(f"  → {e.meaning_ko}")
         lines.append("")
-        if e.example_en:
-            lines.append(f"  📝 {e.example_en}")
-        lines.append(f"  💬 {e.example_ko}")
+        
+        # 모든 예문 출력
+        for j, ex in enumerate(e.examples, 1):
+            if ex.en:
+                lines.append(f"  📝 {ex.en}")
+            if ex.ko:
+                lines.append(f"  💬 {ex.ko}")
+            if j < len(e.examples):
+                lines.append("")  # 예문 사이 구분
         lines.append("")
     
     return "\n".join(lines).strip()
@@ -40,18 +46,28 @@ def night_examples_ko(tz: str, items: list[Entry], count: int = 6) -> str:
         ""
     ]
     
-    # Extract examples, shuffle, limit to count
-    examples = [(e.example_ko, e.idiom) for e in items if e.example_ko]
-    random.shuffle(examples)
-    examples = examples[:min(count, len(examples))]
+    # 모든 예문 수집 (각 entry의 모든 examples에서)
+    all_examples = []
+    for e in items:
+        for ex in e.examples:
+            if ex.ko:
+                all_examples.append((ex.ko, e.idiom))
     
-    for i, (ex_ko, idiom) in enumerate(examples, 1):
+    # 랜덤 셔플 후 count개 선택
+    random.shuffle(all_examples)
+    selected = all_examples[:min(count, len(all_examples))]
+    
+    if not selected:
+        lines.append("No review items available.")
+        return "\n".join(lines).strip()
+    
+    for i, (ex_ko, idiom) in enumerate(selected, 1):
         lines.append(f"{i}. {ex_ko}")
     
     lines.append("")
     lines.append("─" * 20)
     lines.append("📖 Answers:")
-    for i, (ex_ko, idiom) in enumerate(examples, 1):
+    for i, (ex_ko, idiom) in enumerate(selected, 1):
         lines.append(f"{i}. {idiom}")
     
     return "\n".join(lines).strip()
@@ -69,18 +85,24 @@ def month_end_quiz(tz: str, items: list[Entry]) -> str:
         lines.append("No quiz data available.")
         return "\n".join(lines).strip()
     
-    # 3 quiz types
+    # 모든 예문 수집
+    all_examples = []
+    for e in items:
+        for ex in e.examples:
+            all_examples.append((e.idiom, e.meaning_ko, ex.en, ex.ko))
+    
+    # 3 quiz types: ko→exp, en→exp, exp→def
     quiz_types = ["ko", "en", "idiom"]
     quizzes = []
     
-    for e in items:
+    for idiom, meaning, ex_en, ex_ko in all_examples:
         qtype = random.choice(quiz_types)
-        if qtype == "ko" and e.example_ko:
-            quizzes.append(("ko", e.example_ko, e.idiom, e.meaning_ko))
-        elif qtype == "en" and e.example_en:
-            quizzes.append(("en", e.example_en, e.idiom, e.meaning_ko))
+        if qtype == "ko" and ex_ko:
+            quizzes.append(("ko", ex_ko, idiom, meaning))
+        elif qtype == "en" and ex_en:
+            quizzes.append(("en", ex_en, idiom, meaning))
         else:
-            quizzes.append(("idiom", e.idiom, e.meaning_ko, e.example_ko))
+            quizzes.append(("idiom", idiom, meaning, ex_ko))
     
     random.shuffle(quizzes)
     quizzes = quizzes[:min(8, len(quizzes))]
