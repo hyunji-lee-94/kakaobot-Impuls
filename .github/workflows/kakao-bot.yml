@@ -43,7 +43,7 @@ jobs:
           project-slug: ${{ secrets.INFISICAL_PROJECT_ID }}
           env-slug: prod
           secret-path: /KAKAO
-          identity-id: ${{ secrets.INFISICAL_IDENTITY_ID }}
+          client-id: ${{ secrets.INFISICAL_IDENTITY_ID }}
           client-secret: ${{ secrets.INFISICAL_IDENTITY_SECRET }}
 
       - name: Install dependencies
