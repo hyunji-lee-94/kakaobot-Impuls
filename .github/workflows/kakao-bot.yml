@@ -7,6 +7,15 @@ on:
     # KST 22:00 = UTC 13:00
     - cron: "0 13 * * *"
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode (morning/night)'
+        required: true
+        default: 'morning'
+        type: choice
+        options:
+          - morning
+          - night
 
 permissions:
   contents: write   # state.json 커밋을 위해 필요
@@ -45,13 +54,16 @@ jobs:
       - name: Decide run mode
         id: mode
         run: |
-          HOUR=$(date -u +'%H')
-          if [ "$HOUR" = "00" ]; then
-            echo "mode=morning" >> $GITHUB_OUTPUT
-          elif [ "$HOUR" = "13" ]; then
-            echo "mode=night" >> $GITHUB_OUTPUT
+          # 수동 실행 시 input 사용, 스케줄 실행 시 시간으로 판단
+          if [ -n "${{ github.event.inputs.mode }}" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
           else
-            echo "mode=manual" >> $GITHUB_OUTPUT
+            HOUR=$(date -u +'%H')
+            if [ "$HOUR" = "00" ]; then
+              echo "mode=morning" >> $GITHUB_OUTPUT
+            else
+              echo "mode=night" >> $GITHUB_OUTPUT
+            fi
           fi
 
       - name: Run bot
