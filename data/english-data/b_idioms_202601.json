@@ -1,0 +1,31 @@
+[
+    {
+      "id": "c-202601-005",
+      "idiom": "on the same page",
+      "meaning_ko": "모두가 같은 내용을 이해하고 있는 상태",
+      "example_en": "Before we start the project, let’s make sure everyone is on the same page about the requirements.",
+      "example_ko": "프로젝트를 시작하기 전에 요구사항에 대해 모두 같은 이해를 하고 있는지 확인합시다."
+    },
+    {
+      "id": "c-202601-006",
+      "idiom": "touch base",
+      "meaning_ko": "간단히 연락해서 상황을 확인하다",
+      "example_en": "I’ll touch base with the data team later today to check the progress.",
+      "example_ko": "오늘 중으로 데이터 팀에 간단히 연락해서 진행 상황을 확인할게요."
+    },
+    {
+      "id": "c-202601-007",
+      "idiom": "ahead of schedule",
+      "meaning_ko": "예정보다 앞서서, 계획보다 빨리",
+      "example_en": "The pipeline migration was completed ahead of schedule.",
+      "example_ko": "파이프라인 마이그레이션이 예정보다 빨리 완료되었습니다."
+    },
+    {
+      "id": "c-202601-008",
+      "idiom": "take responsibility",
+      "meaning_ko": "책임을 지다, 책임을 맡다",
+      "example_en": "I’ll take responsibility for monitoring the data quality checks.",
+      "example_ko": "데이터 품질 검증 모니터링은 제가 책임지고 맡겠습니다."
+    }
+  ]
+  

@@ -1,0 +1,31 @@
+[
+    {
+      "id": "c-202601-001",
+      "idiom": "move the needle",
+      "meaning_ko": "성과 지표나 핵심 결과에 눈에 띄는 변화를 만들다",
+      "example_en": "We’ve shipped several optimisations, but only the partitioning change really moved the needle on query latency.",
+      "example_ko": "여러 최적화를 적용했지만, 쿼리 지연시간에 실질적인 변화를 만든 건 파티셔닝 변경뿐이었어요."
+    },
+    {
+      "id": "c-202601-002",
+      "idiom": "in the weeds",
+      "meaning_ko": "중요하지 않은 세부사항에 과도하게 빠져 있는 상태",
+      "example_en": "We’re getting in the weeds debating column names; let’s step back and align on the data contract first.",
+      "example_ko": "컬럼 이름 논의에 너무 빠져 있는데, 한 발 물러서서 데이터 계약부터 맞추는 게 좋겠어요."
+    },
+    {
+      "id": "c-202601-003",
+      "idiom": "hold the line",
+      "meaning_ko": "압박이 있어도 기존 원칙이나 입장을 유지하다",
+      "example_en": "We need to hold the line on data quality checks, even if it delays the release.",
+      "example_ko": "릴리스가 늦어지더라도 데이터 품질 검증 기준은 유지해야 합니다."
+    },
+    {
+      "id": "c-202601-004",
+      "idiom": "get buy-in",
+      "meaning_ko": "이해관계자들의 동의나 지지를 얻다",
+      "example_en": "We’ll need to get buy-in from finance before committing to reserved capacity.",
+      "example_ko": "예약 용량을 확정하기 전에 재무팀의 동의를 먼저 받아야 해요."
+    }
+  ]
+  
