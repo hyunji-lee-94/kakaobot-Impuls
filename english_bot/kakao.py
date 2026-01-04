@@ -1,13 +1,12 @@
 import json
 import requests
-from typing import Optional
 
 KAKAO_TOKEN_URL = "https://kauth.kakao.com/oauth/token"
 KAKAO_MEMO_SEND_URL = "https://kapi.kakao.com/v2/api/talk/memo/default/send"
 
 
 class KakaoClient:
-    def __init__(self, rest_api_key: str, refresh_token: str, client_secret: Optional[str] = None):
+    def __init__(self, rest_api_key: str, refresh_token: str, client_secret: str | None = None):
         self.rest_api_key = rest_api_key
         self.refresh_token = refresh_token
         self.client_secret = client_secret

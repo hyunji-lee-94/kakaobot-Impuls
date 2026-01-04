@@ -1,31 +1,2486 @@
 [
     {
-      "id": "c-202601-005",
+      "id": "c-202601-001",
       "idiom": "on the same page",
       "meaning_ko": "모두가 같은 내용을 이해하고 있는 상태",
-      "example_en": "Before we start the project, let’s make sure everyone is on the same page about the requirements.",
-      "example_ko": "프로젝트를 시작하기 전에 요구사항에 대해 모두 같은 이해를 하고 있는지 확인합시다."
+      "examples": [
+        {
+          "en": "Before we start the project, let’s make sure everyone is on the same page about the requirements.",
+          "ko": "프로젝트를 시작하기 전에 요구사항에 대해 모두 같은 이해를 하고 있는지 확인합시다."
+        },
+        {
+          "en": "We need a quick meeting to ensure the marketing and sales teams are on the same page.",
+          "ko": "마케팅팀과 영업팀이 같은 이해를 공유하고 있는지 확인하기 위해 짧은 회의가 필요합니다."
+        },
+        {
+          "en": "I'm glad we are all on the same page regarding the budget cuts.",
+          "ko": "예산 삭감에 대해 우리 모두 의견이 일치해서 다행입니다."
+        },
+        {
+          "en": "To keep everyone on the same page, I will send out the meeting minutes by EOD.",
+          "ko": "모두가 같은 내용을 공유할 수 있도록 오늘 일과 종료 전까지 회의록을 보내겠습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-002",
+      "idiom": "touch base",
+      "meaning_ko": "간단히 연락해서 상황을 확인하다",
+      "examples": [
+        {
+          "en": "I’ll touch base with the data team later today to check the progress.",
+          "ko": "오늘 중으로 데이터 팀에 간단히 연락해서 진행 상황을 확인할게요."
+        },
+        {
+          "en": "Let’s touch base next Monday to discuss any updates on the client's feedback.",
+          "ko": "고객 피드백에 대한 업데이트 사항을 논의하기 위해 다음 주 월요일에 연락합시다."
+        },
+        {
+          "en": "I just wanted to touch base and see if you had any questions about the proposal.",
+          "ko": "제안서에 대해 궁금한 점이 있으신지 확인차 연락드렸습니다."
+        },
+        {
+          "en": "Can we touch base for five minutes after the lunch break?",
+          "ko": "점심시간 끝나고 5분 정도만 상황 체크할 수 있을까요?"
+        }
+      ]
+    },
+    {
+      "id": "c-202601-003",
+      "idiom": "ahead of schedule",
+      "meaning_ko": "예정보다 앞서서, 계획보다 빨리",
+      "examples": [
+        {
+          "en": "The pipeline migration was completed ahead of schedule.",
+          "ko": "파이프라인 마이그레이션이 예정보다 빨리 완료되었습니다."
+        },
+        {
+          "en": "If we finish the report ahead of schedule, we can start the next sprint early.",
+          "ko": "보고서를 예정보다 빨리 끝내면 다음 스프린트를 일찍 시작할 수 있습니다."
+        },
+        {
+          "en": "Thanks to the team's hard work, the product launch is running ahead of schedule.",
+          "ko": "팀의 노력 덕분에 제품 출시가 일정보다 빠르게 진행되고 있습니다."
+        },
+        {
+          "en": "We managed to secure the funding two weeks ahead of schedule.",
+          "ko": "저희는 예정보다 2주 앞당겨 자금을 확보하는 데 성공했습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-004",
+      "idiom": "take responsibility",
+      "meaning_ko": "책임을 지다, 책임을 맡다",
+      "examples": [
+        {
+          "en": "I’ll take responsibility for monitoring the data quality checks.",
+          "ko": "데이터 품질 검증 모니터링은 제가 책임지고 맡겠습니다."
+        },
+        {
+          "en": "As the manager, I take full responsibility for the delay in the project.",
+          "ko": "매니저로서 프로젝트 지연에 대해 전적으로 책임을 지겠습니다."
+        },
+        {
+          "en": "Who is going to take responsibility for updating the client database?",
+          "ko": "고객 데이터베이스 업데이트는 누가 책임을 맡을 예정인가요?"
+        },
+        {
+          "en": "You need to take responsibility for your tasks and meet the deadlines.",
+          "ko": "당신은 맡은 업무에 책임을 지고 마감 기한을 지켜야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-005",
+      "idiom": "get the ball rolling",
+      "meaning_ko": "일을 시작하다, 일을 궤도에 올리다",
+      "examples": [
+        {
+          "en": "Let's get the ball rolling on the new marketing campaign.",
+          "ko": "새로운 마케팅 캠페인을 본격적으로 시작해 봅시다."
+        },
+        {
+          "en": "I've sent the initial draft to get the ball rolling.",
+          "ko": "일을 시작하기 위해 일단 초안을 보냈습니다."
+        },
+        {
+          "en": "We need a small deposit to get the ball rolling on your order.",
+          "ko": "주문 처리를 시작하려면 소정의 계약금이 필요합니다."
+        },
+        {
+          "en": "Who would like to get the ball rolling by sharing their ideas first?",
+          "ko": "누가 먼저 아이디어를 공유하며 시작해 보시겠어요?"
+        }
+      ]
     },
     {
       "id": "c-202601-006",
-      "idiom": "touch base",
-      "meaning_ko": "간단히 연락해서 상황을 확인하다",
-      "example_en": "I’ll touch base with the data team later today to check the progress.",
-      "example_ko": "오늘 중으로 데이터 팀에 간단히 연락해서 진행 상황을 확인할게요."
+      "idiom": "keep someone in the loop",
+      "meaning_ko": "누구에게 상황을 계속 알려주다",
+      "examples": [
+        {
+          "en": "Please keep me in the loop regarding the negotiations with the vendor.",
+          "ko": "업체와의 협상 진행 상황을 제가 계속 알 수 있게 해주세요."
+        },
+        {
+          "en": "I'll make sure to keep the CEO in the loop about our progress.",
+          "ko": "우리 진행 상황을 CEO께 계속 보고드리도록 하겠습니다."
+        },
+        {
+          "en": "Thanks for keeping me in the loop during my absence.",
+          "ko": "제가 부재중일 때 상황을 계속 알려주셔서 감사합니다."
+        },
+        {
+          "en": "We need to keep the investors in the loop to maintain their trust.",
+          "ko": "신뢰를 유지하기 위해 투자자들에게 상황을 계속 공유해야 합니다."
+        }
+      ]
     },
     {
       "id": "c-202601-007",
-      "idiom": "ahead of schedule",
-      "meaning_ko": "예정보다 앞서서, 계획보다 빨리",
-      "example_en": "The pipeline migration was completed ahead of schedule.",
-      "example_ko": "파이프라인 마이그레이션이 예정보다 빨리 완료되었습니다."
+      "idiom": "call it a day",
+      "meaning_ko": "오늘 업무를 마치다, 마무리하다",
+      "examples": [
+        {
+          "en": "We've made a lot of progress, so let's call it a day.",
+          "ko": "진전이 많았으니 오늘은 이만 마칩시다."
+        },
+        {
+          "en": "I'm exhausted; let's call it a day and finish this tomorrow.",
+          "ko": "너무 지쳤네요. 오늘은 여기까지만 하고 내일 마무리하죠."
+        },
+        {
+          "en": "It’s already 7 PM, so I think it’s time to call it a day.",
+          "ko": "벌써 저녁 7시네요. 이제 퇴근할 시간인 것 같습니다."
+        },
+        {
+          "en": "The team decided to call it a day after solving the server issue.",
+          "ko": "팀은 서버 문제를 해결한 후 업무를 마무리하기로 했습니다."
+        }
+      ]
     },
     {
       "id": "c-202601-008",
-      "idiom": "take responsibility",
-      "meaning_ko": "책임을 지다, 책임을 맡다",
-      "example_en": "I’ll take responsibility for monitoring the data quality checks.",
-      "example_ko": "데이터 품질 검증 모니터링은 제가 책임지고 맡겠습니다."
+      "idiom": "think outside the box",
+      "meaning_ko": "고정관념에서 벗어나 창의적으로 생각하다",
+      "examples": [
+        {
+          "en": "We need to think outside the box to solve this budget issue.",
+          "ko": "이 예산 문제를 해결하려면 창의적인 사고가 필요합니다."
+        },
+        {
+          "en": "The competition is tough, so we must think outside the box.",
+          "ko": "경쟁이 치열하므로 우리는 기존 틀에서 벗어난 생각을 해야 합니다."
+        },
+        {
+          "en": "Her ability to think outside the box helped us find a new market.",
+          "ko": "그녀의 창의적인 사고방식 덕분에 우리는 새로운 시장을 찾을 수 있었습니다."
+        },
+        {
+          "en": "Our manager encourages us to think outside the box during brainstorming sessions.",
+          "ko": "우리 매니저는 브레인스토밍 세션 동안 창의적으로 생각할 것을 권장합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-009",
+      "idiom": "back to the drawing board",
+      "meaning_ko": "계획이 실패하여 처음부터 다시 시작하다",
+      "examples": [
+        {
+          "en": "The client rejected our proposal, so it's back to the drawing board.",
+          "ko": "고객이 제안을 거절해서 처음부터 다시 시작해야 합니다."
+        },
+        {
+          "en": "The prototype failed the test; we have to go back to the drawing board.",
+          "ko": "시제품이 테스트에서 불합격했습니다. 원점에서 재검토해야 합니다."
+        },
+        {
+          "en": "If this strategy doesn't work, it's back to the drawing board for us.",
+          "ko": "이 전략이 통하지 않으면 우리는 처음부터 다시 계획을 짜야 합니다."
+        },
+        {
+          "en": "Don't be discouraged; going back to the drawing board can lead to a better design.",
+          "ko": "낙담하지 마세요. 처음부터 다시 시작하는 것이 더 나은 디자인으로 이어질 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-010",
+      "idiom": "bring to the table",
+      "meaning_ko": "(이익이 될 만한 것을) 제시하다, 기여하다",
+      "examples": [
+        {
+          "en": "What specific skills do you bring to the table for this role?",
+          "ko": "이 직무를 위해 당신이 기여할 수 있는 구체적인 기술은 무엇인가요?"
+        },
+        {
+          "en": "He brings years of experience in international sales to the table.",
+          "ko": "그는 수년간의 해외 영업 경험을 팀에 제공합니다."
+        },
+        {
+          "en": "We need to consider what each partner brings to the table before signing.",
+          "ko": "계약하기 전에 각 파트너가 어떤 이점을 제공하는지 고려해야 합니다."
+        },
+        {
+          "en": "The new software brings several innovative features to the table.",
+          "ko": "새 소프트웨어는 여러 혁신적인 기능을 선보입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-011",
+      "idiom": "cut corners",
+      "meaning_ko": "절차를 생략하다, (돈/시간을 아끼려) 대충 하다",
+      "examples": [
+        {
+          "en": "We cannot afford to cut corners when it comes to safety regulations.",
+          "ko": "안전 규정에 있어서는 절차를 생략하거나 대충 해서는 안 됩니다."
+        },
+        {
+          "en": "If you cut corners on the coding, you'll have more bugs later.",
+          "ko": "코딩을 대충 하면 나중에 더 많은 버그가 생길 것입니다."
+        },
+        {
+          "en": "The company failed because they tried to cut corners on material quality.",
+          "ko": "그 회사는 재료 품질을 아끼려다 실패했습니다."
+        },
+        {
+          "en": "Don't cut corners; follow the standard operating procedures strictly.",
+          "ko": "요령 피우지 말고 표준 운영 절차를 엄격히 따르세요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-012",
+      "idiom": "get down to business",
+      "meaning_ko": "본론으로 들어가다, 업무를 시작하다",
+      "examples": [
+        {
+          "en": "Now that everyone is here, let’s get down to business.",
+          "ko": "모두 오셨으니, 이제 본론으로 들어갑시다."
+        },
+        {
+          "en": "Stop chatting about the weekend and let's get down to business.",
+          "ko": "주말 이야기는 그만하고 이제 업무 시작하죠."
+        },
+        {
+          "en": "The CEO likes to get down to business immediately without small talk.",
+          "ko": "CEO께서는 잡담 없이 바로 본론으로 들어가는 것을 좋아하십니다."
+        },
+        {
+          "en": "We only have thirty minutes, so let’s get down to business right away.",
+          "ko": "시간이 30분밖에 없으니 바로 본론을 논의합시다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-013",
+      "idiom": "in the long run",
+      "meaning_ko": "장기적으로 보았을 때",
+      "examples": [
+        {
+          "en": "Investing in high-quality equipment will save us money in the long run.",
+          "ko": "고품질 장비에 투자하는 것이 장기적으로는 비용을 절감해 줄 것입니다."
+        },
+        {
+          "en": "It seems expensive now, but it's a better choice in the long run.",
+          "ko": "지금은 비싸 보이지만, 장기적으로는 더 나은 선택입니다."
+        },
+        {
+          "en": "Building good customer relationships pays off in the long run.",
+          "ko": "좋은 고객 관계를 구축하는 것은 결국 장기적으로 도움이 됩니다."
+        },
+        {
+          "en": "In the long run, this minor setback won't affect our overall growth.",
+          "ko": "장기적으로 보면, 이 작은 차질은 우리의 전반적인 성장에 영향을 주지 않을 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-014",
+      "idiom": "keep an eye on",
+      "meaning_ko": "~을 계속 지켜보다, 주시하다",
+      "examples": [
+        {
+          "en": "Please keep an eye on the server performance while I'm out.",
+          "ko": "제가 없는 동안 서버 성능을 계속 주시해 주세요."
+        },
+        {
+          "en": "We need to keep an eye on our competitors' pricing strategies.",
+          "ko": "우리는 경쟁사들의 가격 전략을 계속 지켜봐야 합니다."
+        },
+        {
+          "en": "I'll keep an eye on the stock levels and reorder when necessary.",
+          "ko": "재고 수준을 주시하다가 필요할 때 재주문하겠습니다."
+        },
+        {
+          "en": "The manager asked me to keep an eye on the new intern's progress.",
+          "ko": "매니저님이 신입 인턴의 진행 상황을 지켜봐 달라고 하셨습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-015",
+      "idiom": "on the same wavelength",
+      "meaning_ko": "사고방식이나 의견이 비슷하다",
+      "examples": [
+        {
+          "en": "I'm glad we're on the same wavelength regarding the project's goals.",
+          "ko": "프로젝트 목표에 대해 우리 의견이 잘 맞아서 다행입니다."
+        },
+        {
+          "en": "It's easy to work with him because we are always on the same wavelength.",
+          "ko": "그와는 사고방식이 비슷해서 함께 일하기 편합니다."
+        },
+        {
+          "en": "We need to make sure the designers and developers are on the same wavelength.",
+          "ko": "디자이너와 개발자들이 서로 코드가 잘 맞는지(생각이 일치하는지) 확인해야 합니다."
+        },
+        {
+          "en": "They weren't on the same wavelength, so the meeting lasted for hours.",
+          "ko": "그들은 의견 차이가 커서 회의가 몇 시간 동안 이어졌습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-016",
+      "idiom": "play it by ear",
+      "meaning_ko": "(계획 없이) 상황을 봐가며 결정하다",
+      "examples": [
+        {
+          "en": "We don't have a fixed agenda for the meeting, so let's play it by ear.",
+          "ko": "회의 안건이 정해진 게 없으니 상황을 봐가면서 진행하죠."
+        },
+        {
+          "en": "I'm not sure when the flight will arrive, so let's play it by ear.",
+          "ko": "비행기가 언제 도착할지 모르니 상황에 맞춰 행동합시다."
+        },
+        {
+          "en": "We’ll see how the client reacts and then play it by ear.",
+          "ko": "고객의 반응을 보고 나서 어떻게 할지 결정하겠습니다."
+        },
+        {
+          "en": "Rather than making a strict plan, let's play it by ear for the team dinner.",
+          "ko": "팀 회식 계획을 엄격하게 짜기보다는 상황 봐서 정합시다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-017",
+      "idiom": "put on hold",
+      "meaning_ko": "중단시키다, 보류하다",
+      "examples": [
+        {
+          "en": "The project has been put on hold due to budget constraints.",
+          "ko": "예산 제약 때문에 프로젝트가 보류되었습니다."
+        },
+        {
+          "en": "Can we put this discussion on hold until the manager arrives?",
+          "ko": "매니저님이 오실 때까지 이 논의를 잠시 미룰 수 있을까요?"
+        },
+        {
+          "en": "They decided to put the hiring process on hold for a month.",
+          "ko": "그들은 채용 프로세스를 한 달간 중단하기로 결정했습니다."
+        },
+        {
+          "en": "I'll have to put my vacation plans on hold to finish this report.",
+          "ko": "이 보고서를 끝내기 위해 휴가 계획을 보류해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-018",
+      "idiom": "read between the lines",
+      "meaning_ko": "숨은 의도를 파악하다, 행간을 읽다",
+      "examples": [
+        {
+          "en": "If you read between the lines, you'll see he's not happy with the deal.",
+          "ko": "행간을 읽어보면, 그가 이번 거래에 만족하지 않는다는 걸 알 수 있습니다."
+        },
+        {
+          "en": "I had to read between the lines of the email to understand the real issue.",
+          "ko": "실제 문제를 파악하기 위해 이메일의 숨은 의도를 읽어야 했습니다."
+        },
+        {
+          "en": "Reading between the lines, it seems like the company is preparing for a merger.",
+          "ko": "정황상 회사가 합병을 준비하고 있는 것 같습니다."
+        },
+        {
+          "en": "Sometimes you need to read between the lines during high-level negotiations.",
+          "ko": "고위급 협상 중에는 때때로 숨은 뜻을 파악하는 능력이 필요합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-019",
+      "idiom": "see eye to eye",
+      "meaning_ko": "의견이 완전히 일치하다",
+      "examples": [
+        {
+          "en": "We don't always see eye to eye, but we respect each other's work.",
+          "ko": "우리가 항상 의견이 일치하는 건 아니지만, 서로의 업무 방식은 존중합니다."
+        },
+        {
+          "en": "The two departments finally see eye to eye on the new strategy.",
+          "ko": "두 부서가 마침내 새로운 전략에 대해 의견을 같이했습니다."
+        },
+        {
+          "en": "I'm glad we see eye to eye on the need for more staff.",
+          "ko": "인원 충원 필요성에 대해 저와 의견이 같으셔서 다행입니다."
+        },
+        {
+          "en": "My boss and I see eye to eye on most business decisions.",
+          "ko": "상사와 저는 대부분의 비즈니스 결정에서 의견이 잘 맞습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-020",
+      "idiom": "up in the air",
+      "meaning_ko": "결정되지 않은, 불투명한",
+      "examples": [
+        {
+          "en": "The final decision on the merger is still up in the air.",
+          "ko": "합병에 대한 최종 결정은 아직 불투명합니다."
+        },
+        {
+          "en": "Our travel plans are up in the air until we get the visa approval.",
+          "ko": "비자 승인을 받을 때까지 저희 여행 계획은 유동적입니다."
+        },
+        {
+          "en": "Everything is up in the air since the manager resigned suddenly.",
+          "ko": "매니저가 갑자기 사임한 이후로 모든 것이 불확실한 상태입니다."
+        },
+        {
+          "en": "Whether we will launch the product this year is still up in the air.",
+          "ko": "올해 제품을 출시할 수 있을지 여부는 아직 미정입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-021",
+      "idiom": "win-win situation",
+      "meaning_ko": "양측 모두에게 유리한 상황",
+      "examples": [
+        {
+          "en": "This partnership is a win-win situation for both companies.",
+          "ko": "이 파트너십은 양사 모두에게 이익이 되는 상황입니다."
+        },
+        {
+          "en": "We are looking for a win-win situation where everyone is satisfied.",
+          "ko": "우리는 모두가 만족할 수 있는 상생의 방안을 찾고 있습니다."
+        },
+        {
+          "en": "Lower prices for customers and more sales for us is a win-win situation.",
+          "ko": "고객에겐 낮은 가격을, 우리에겐 더 많은 판매를 가져다주는 것은 서로에게 이득입니다."
+        },
+        {
+          "en": "Outsourcing this task could be a win-win situation for our efficiency.",
+          "ko": "이 업무를 아웃소싱하는 것이 효율성 면에서 서로에게 유리할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-022",
+      "idiom": "by the book",
+      "meaning_ko": "규칙대로, 정석대로",
+      "examples": [
+        {
+          "en": "Our auditors always do everything strictly by the book.",
+          "ko": "우리 감사관들은 항상 모든 일을 엄격하게 규칙대로 처리합니다."
+        },
+        {
+          "en": "He’s a very conservative manager who does everything by the book.",
+          "ko": "그는 모든 것을 정석대로 처리하는 매우 보수적인 매니저입니다."
+        },
+        {
+          "en": "We have to play it by the book to avoid any legal issues.",
+          "ko": "법적 문제를 피하려면 규칙대로 행동해야 합니다."
+        },
+        {
+          "en": "The safety inspection must be conducted by the book.",
+          "ko": "안전 점검은 반드시 매뉴얼대로 진행되어야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-023",
+      "idiom": "cut to the chase",
+      "meaning_ko": "본론으로 바로 들어가다",
+      "examples": [
+        {
+          "en": "I'll cut to the chase: we need more funding to finish the project.",
+          "ko": "본론만 말씀드릴게요. 프로젝트를 끝내려면 자금이 더 필요합니다."
+        },
+        {
+          "en": "Let's cut to the chase and discuss the final numbers.",
+          "ko": "서론은 생략하고 바로 최종 수치에 대해 이야기합시다."
+        },
+        {
+          "en": "Stop wasting time and cut to the chase.",
+          "ko": "시간 낭비하지 말고 바로 요점만 말하세요."
+        },
+        {
+          "en": "He cut to the chase and asked for a 10% discount immediately.",
+          "ko": "그는 단도직입적으로 즉시 10% 할인을 요청했습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-024",
+      "idiom": "get one's foot in the door",
+      "meaning_ko": "발을 들여놓다, (조직 등에) 들어갈 기회를 얻다",
+      "examples": [
+        {
+          "en": "An internship is a great way to get your foot in the door at a big firm.",
+          "ko": "인턴십은 대기업에 발을 들여놓을 수 있는 아주 좋은 방법입니다."
+        },
+        {
+          "en": "We're offering a low price just to get our foot in the door of this market.",
+          "ko": "이 시장에 진입하기 위해 일단 낮은 가격을 제시하고 있습니다."
+        },
+        {
+          "en": "He worked as a freelancer to get his foot in the door of the tech industry.",
+          "ko": "그는 IT 업계에 진입하기 위해 프리랜서로 일했습니다."
+        },
+        {
+          "en": "Getting your foot in the door is often the hardest part of a career change.",
+          "ko": "경력 전환에서 가장 어려운 부분은 보통 처음 발을 들여놓는 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-025",
+      "idiom": "keep a straight face",
+      "meaning_ko": "무표정을 유지하다, 웃음을 참다",
+      "examples": [
+        {
+          "en": "It was hard to keep a straight face during the awkward presentation.",
+          "ko": "어색한 발표 중에 웃음을 참기가 힘들었습니다."
+        },
+        {
+          "en": "You need to keep a straight face while negotiating with the client.",
+          "ko": "고객과 협상할 때는 감정을 드러내지 않는 무표정을 유지해야 합니다."
+        },
+        {
+          "en": "I couldn't keep a straight face when he made that ridiculous excuse.",
+          "ko": "그가 말도 안 되는 변명을 할 때 웃음을 참을 수 없었습니다."
+        },
+        {
+          "en": "Professionalism requires you to keep a straight face even in stressful situations.",
+          "ko": "프로 의식은 스트레스 상황에서도 평정심(무표정)을 유지할 것을 요구합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-026",
+      "idiom": "on the fence",
+      "meaning_ko": "결정을 내리지 못한, 중립적인",
+      "examples": [
+        {
+          "en": "I'm still on the fence about which candidate to hire.",
+          "ko": "어떤 후보자를 채용할지 아직 결정하지 못했습니다."
+        },
+        {
+          "en": "The investors are on the fence regarding the new expansion plan.",
+          "ko": "투자자들은 새로운 확장 계획에 대해 결정을 유보하고 있습니다."
+        },
+        {
+          "en": "If you're on the fence, let me show you some additional data.",
+          "ko": "결정이 망설여지신다면, 추가 데이터를 좀 보여드리겠습니다."
+        },
+        {
+          "en": "She remained on the fence until the very last minute of the meeting.",
+          "ko": "그녀는 회의 마지막 순간까지 태도를 결정하지 않았습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-027",
+      "idiom": "pull one's weight",
+      "meaning_ko": "자기 몫을 다하다",
+      "examples": [
+        {
+          "en": "Everyone in the team needs to pull their weight for the project to succeed.",
+          "ko": "프로젝트가 성공하려면 팀원 각자가 자기 몫을 다해야 합니다."
+        },
+        {
+          "en": "If he doesn't start pulling his weight, we'll have to let him go.",
+          "ko": "그가 자기 역할을 다하지 않는다면, 해고할 수밖에 없습니다."
+        },
+        {
+          "en": "I feel like I'm doing all the work; you need to start pulling your weight.",
+          "ko": "제가 일을 다 하는 것 같네요. 당신도 당신 몫을 좀 하세요."
+        },
+        {
+          "en": "Small startups rely on every employee pulling their weight.",
+          "ko": "규모가 작은 스타트업은 모든 직원이 제 역할을 다하는 것에 의존합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-028",
+      "idiom": "raise the bar",
+      "meaning_ko": "기준(기대치)을 높이다",
+      "examples": [
+        {
+          "en": "The new manager has really raised the bar for performance standards.",
+          "ko": "새로 오신 매니저님이 성과 기준을 정말 높여 놓으셨습니다."
+        },
+        {
+          "en": "Our competitors have raised the bar with their latest product launch.",
+          "ko": "경쟁사들이 최근 제품 출시로 기대치를 한껏 높여 놓았습니다."
+        },
+        {
+          "en": "We need to raise the bar if we want to become market leaders.",
+          "ko": "시장 리더가 되고 싶다면 기준을 더 높여야 합니다."
+        },
+        {
+          "en": "His exceptional work quality has raised the bar for the entire department.",
+          "ko": "그의 뛰어난 업무 품질이 부서 전체의 기준을 높였습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-029",
+      "idiom": "the bottom line",
+      "meaning_ko": "최종 결과, 가장 중요한 것, 결론",
+      "examples": [
+        {
+          "en": "The bottom line is that we need to increase our sales by 20%.",
+          "ko": "결론은 매출을 20% 늘려야 한다는 것입니다."
+        },
+        {
+          "en": "How will this new policy affect our bottom line?",
+          "ko": "이 새로운 정책이 우리의 최종 수익에 어떤 영향을 미칠까요?"
+        },
+        {
+          "en": "The bottom line is that we simply don't have enough staff.",
+          "ko": "핵심은 우리가 인력이 충분하지 않다는 점입니다."
+        },
+        {
+          "en": "Don't give me the details; just tell me the bottom line.",
+          "ko": "세부 사항 말고 그냥 결론만 말씀해 주세요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-030",
+      "idiom": "word of mouth",
+      "meaning_ko": "구전, 입소문",
+      "examples": [
+        {
+          "en": "Most of our new clients come to us through word of mouth.",
+          "ko": "저희 신규 고객의 대부분은 입소문을 통해 오십니다."
+        },
+        {
+          "en": "Word of mouth is a very powerful marketing tool.",
+          "ko": "입소문은 매우 강력한 마케팅 도구입니다."
+        },
+        {
+          "en": "The restaurant became famous solely by word of mouth.",
+          "ko": "그 레스토랑은 오로지 입소문만으로 유명해졌습니다."
+        },
+        {
+          "en": "Positive word of mouth can significantly boost our brand reputation.",
+          "ko": "긍정적인 입소문은 우리 브랜드 평판을 크게 높일 수 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-031",
+      "idiom": "work against the clock",
+      "meaning_ko": "시간을 다투며 일하다, 매우 급히 일하다",
+      "examples": [
+        {
+          "en": "We are working against the clock to finish the proposal by 5 PM.",
+          "ko": "오후 5시까지 제안서를 끝내기 위해 시간을 다투며 일하고 있습니다."
+        },
+        {
+          "en": "The engineers worked against the clock to fix the server crash.",
+          "ko": "엔지니어들은 서버 다운을 해결하기 위해 매우 급히 움직였습니다."
+        },
+        {
+          "en": "It’s a race against the clock to get everything ready for the launch.",
+          "ko": "출시를 위해 모든 것을 준비하느라 시간과 전쟁을 치르고 있습니다."
+        },
+        {
+          "en": "We have to work against the clock to meet the strict deadline.",
+          "ko": "엄격한 마감 기한을 맞추기 위해 쉴 새 없이 일해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-032",
+      "idiom": "bring someone up to speed",
+      "meaning_ko": "누구에게 최신 정보를 알려주다",
+      "examples": [
+        {
+          "en": "Can you bring me up to speed on the current status of the project?",
+          "ko": "프로젝트의 현재 상태에 대해 제가 알 수 있도록 설명해 주시겠어요?"
+        },
+        {
+          "en": "I missed the last meeting; please bring me up to speed.",
+          "ko": "지난 회의에 참석 못 했는데, 진행 상황 좀 알려주세요."
+        },
+        {
+          "en": "The new employee needs someone to bring her up to speed on our workflow.",
+          "ko": "신입 사원에게 우리 업무 흐름을 알려줄 사람이 필요합니다."
+        },
+        {
+          "en": "We'll have a briefing session to bring the whole team up to speed.",
+          "ko": "팀 전체가 상황을 파악할 수 있도록 브리핑 세션을 가질 예정입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-033",
+      "idiom": "hit a snag",
+      "meaning_ko": "뜻밖의 문제(장애)에 부딪히다",
+      "examples": [
+        {
+          "en": "We've hit a snag with the logistics, so the delivery might be delayed.",
+          "ko": "물류 쪽에 문제가 생겨서 배송이 지연될 수 있습니다."
+        },
+        {
+          "en": "The plan was going well until we hit a snag with the permits.",
+          "ko": "허가 관련 문제에 부딪히기 전까지는 계획이 잘 진행되고 있었습니다."
+        },
+        {
+          "en": "We might hit a snag if the supplies don't arrive on time.",
+          "ko": "비품이 제때 도착하지 않으면 차질이 생길 수도 있습니다."
+        },
+        {
+          "en": "The developers hit a snag during the final phase of testing.",
+          "ko": "개발자들이 테스트 마지막 단계에서 예상치 못한 문제에 부딪혔습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-034",
+      "idiom": "in a nutshell",
+      "meaning_ko": "아주 간결하게 말하면, 요약하자면",
+      "examples": [
+        {
+          "en": "In a nutshell, we are over budget and behind schedule.",
+          "ko": "요약하자면, 예산은 초과됐고 일정은 뒤처졌습니다."
+        },
+        {
+          "en": "Can you give me the report in a nutshell?",
+          "ko": "보고서 내용을 핵심만 짧게 말씀해 주시겠어요?"
+        },
+        {
+          "en": "In a nutshell, the new features are designed to improve user experience.",
+          "ko": "간단히 말해, 새 기능들은 사용자 경험 개선을 위해 설계되었습니다."
+        },
+        {
+          "en": "That is our company strategy for the next three years, in a nutshell.",
+          "ko": "그것이 우리 회사의 향후 3년간 전략을 요약한 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-035",
+      "idiom": "keep one's fingers crossed",
+      "meaning_ko": "행운을 빌다, 잘 되기를 바라다",
+      "examples": [
+        {
+          "en": "I'm keeping my fingers crossed that the proposal gets approved.",
+          "ko": "제안서가 승인되기를 간절히 바라고 있습니다."
+        },
+        {
+          "en": "We've done our best; now we just have to keep our fingers crossed.",
+          "ko": "최선을 다했으니, 이제 잘 되길 빌어야죠."
+        },
+        {
+          "en": "Keep your fingers crossed for me during the presentation tomorrow!",
+          "ko": "내일 제 발표가 잘 되도록 행운을 빌어주세요!"
+        },
+        {
+          "en": "I'm keeping my fingers crossed that we'll meet the sales target.",
+          "ko": "판매 목표를 달성할 수 있기를 바라고 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-036",
+      "idiom": "no-brainer",
+      "meaning_ko": "생각할 필요도 없는 것, 아주 쉬운 결정",
+      "examples": [
+        {
+          "en": "Choosing this software was a no-brainer because of its low cost.",
+          "ko": "비용이 저렴해서 이 소프트웨어를 선택하는 건 당연한 일이었습니다."
+        },
+        {
+          "en": "If they offer you a promotion and a raise, it's a no-brainer.",
+          "ko": "승진과 연봉 인상을 제안한다면, 당연히 받아들여야죠."
+        },
+        {
+          "en": "It’s a no-brainer that we should focus on digital marketing now.",
+          "ko": "지금 디지털 마케팅에 집중해야 한다는 건 말할 필요도 없습니다."
+        },
+        {
+          "en": "The decision to expand into Asia was a no-brainer for the board.",
+          "ko": "이사회에게 아시아 시장 확장은 아주 쉬운 결정이었습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-037",
+      "idiom": "on the tip of one's tongue",
+      "meaning_ko": "말이 입안에서 맴도는 (기억이 날 듯 말 듯 한)",
+      "examples": [
+        {
+          "en": "His name is on the tip of my tongue, but I just can't remember it.",
+          "ko": "그의 이름이 입안에서 맴도는데, 기억이 안 나네요."
+        },
+        {
+          "en": "The word for that technical term was on the tip of my tongue during the talk.",
+          "ko": "대화 중에 그 전문 용어가 생각날 듯 말 듯 했습니다."
+        },
+        {
+          "en": "I had a great idea on the tip of my tongue, but it's gone now.",
+          "ko": "좋은 아이디어가 생각날 뻔했는데, 지금은 잊어버렸어요."
+        },
+        {
+          "en": "Wait, the address is on the tip of my tongue; give me a second.",
+          "ko": "잠시만요, 주소가 생각날 것 같아요. 시간을 좀 주세요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-038",
+      "idiom": "play devil's advocate",
+      "meaning_ko": "(논의를 위해) 일부러 반대 입장을 취하다",
+      "examples": [
+        {
+          "en": "Let me play devil's advocate for a moment and look at the risks.",
+          "ko": "잠시 반대 입장에서 리스크를 한번 짚어보겠습니다."
+        },
+        {
+          "en": "She likes to play devil's advocate to make sure we consider all sides.",
+          "ko": "그녀는 우리가 모든 측면을 고려하도록 일부러 반대 의견을 제시하곤 합니다."
+        },
+        {
+          "en": "I'll play devil's advocate: what if the customers don't like the new design?",
+          "ko": "반대 입장에서 묻겠습니다. 고객들이 새 디자인을 싫어하면 어쩌죠?"
+        },
+        {
+          "en": "Playing devil's advocate helped the team avoid a major mistake.",
+          "ko": "반대 입장에서 생각해보는 것이 팀이 큰 실수를 피하는 데 도움이 되었습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-039",
+      "idiom": "pull strings",
+      "meaning_ko": "백을 쓰다, 영향력을 행사하다",
+      "examples": [
+        {
+          "en": "He had to pull some strings to get the meeting with the CEO.",
+          "ko": "그는 CEO와의 면담을 잡기 위해 인맥을 좀 동원해야 했습니다."
+        },
+        {
+          "en": "I can try to pull some strings and see if I can speed up the process.",
+          "ko": "제가 영향력을 좀 발휘해서 프로세스를 앞당길 수 있는지 알아볼게요."
+        },
+        {
+          "en": "She didn't get the job by pulling strings; she's genuinely talented.",
+          "ko": "그녀는 백으로 취업한 게 아닙니다. 정말 실력이 있어요."
+        },
+        {
+          "en": "The manager pulled some strings to secure the extra budget.",
+          "ko": "매니저가 힘을 써서 추가 예산을 확보했습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-040",
+      "idiom": "rock the boat",
+      "meaning_ko": "평지풍파를 일으키다, 상황을 불안정하게 만들다",
+      "examples": [
+        {
+          "en": "Everything is going smoothly, so let's not rock the boat.",
+          "ko": "모든 게 잘 돌아가고 있으니, 굳이 옥에 티를 만들지 맙시다."
+        },
+        {
+          "en": "The new employee didn't want to rock the boat by suggesting changes.",
+          "ko": "신입 사원은 변화를 제안해서 분위기를 흐리고 싶지 않았습니다."
+        },
+        {
+          "en": "He’s afraid that complaining will rock the boat and affect his job security.",
+          "ko": "그는 불평하는 것이 상황을 어렵게 만들어 고용 불안을 초래할까 봐 걱정합니다."
+        },
+        {
+          "en": "Sometimes you have to rock the boat to get things moving in a better direction.",
+          "ko": "때로는 더 나은 방향으로 가기 위해 기존 질서를 흔들 필요도 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-041",
+      "idiom": "rule of thumb",
+      "meaning_ko": "경험상 비추어 본 원칙, 대략적인 원칙",
+      "examples": [
+        {
+          "en": "As a rule of thumb, we should always double-check the figures.",
+          "ko": "경험상 원칙적으로, 우리는 항상 수치를 재확인해야 합니다."
+        },
+        {
+          "en": "A good rule of thumb is to respond to client emails within 24 hours.",
+          "ko": "대략적인 원칙으로, 고객 이메일에는 24시간 이내에 답장하는 것이 좋습니다."
+        },
+        {
+          "en": "There is no strict law, but the rule of thumb is to dress professionally.",
+          "ko": "엄격한 법은 없지만, 경험상 전문적인 복장을 갖추는 것이 기본입니다."
+        },
+        {
+          "en": "My rule of thumb is to save 10% of the budget for unexpected costs.",
+          "ko": "저의 대략적인 원칙은 예산의 10%를 예비비로 떼어 두는 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-042",
+      "idiom": "smooth sailing",
+      "meaning_ko": "일이 순조롭게 진행됨",
+      "examples": [
+        {
+          "en": "Once we get the approval, it should be smooth sailing from there.",
+          "ko": "일단 승인을 받으면 그 이후로는 순조로울 것입니다."
+        },
+        {
+          "en": "The first week was tough, but now it's all smooth sailing.",
+          "ko": "첫째 주는 힘들었지만, 이제는 모든 게 순조롭습니다."
+        },
+        {
+          "en": "I hope the implementation process is smooth sailing.",
+          "ko": "구현 과정이 순탄하게 진행되기를 바랍니다."
+        },
+        {
+          "en": "If we plan carefully, the event will be smooth sailing.",
+          "ko": "꼼꼼하게 계획한다면 행사는 차질 없이 진행될 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-043",
+      "idiom": "stand one's ground",
+      "meaning_ko": "자기 입장을 고수하다, 굽히지 않다",
+      "examples": [
+        {
+          "en": "You need to stand your ground during the salary negotiation.",
+          "ko": "연봉 협상 시 당신의 입장을 확고히 고수해야 합니다."
+        },
+        {
+          "en": "Even though they pressured him, he stood his ground.",
+          "ko": "그들이 압박을 가했음에도 불구하고, 그는 자신의 입장을 굽히지 않았습니다."
+        },
+        {
+          "en": "The company stood its ground despite the negative media coverage.",
+          "ko": "부정적인 언론 보도에도 불구하고 회사는 입장을 고수했습니다."
+        },
+        {
+          "en": "It's important to stand your ground if you believe your strategy is right.",
+          "ko": "자신의 전략이 맞다고 믿는다면 입장을 고수하는 것이 중요합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-044",
+      "idiom": "take it with a grain of salt",
+      "meaning_ko": "에누리해서 듣다, 곧이곧대로 믿지 않다",
+      "examples": [
+        {
+          "en": "I heard a rumor about the merger, but take it with a grain of salt.",
+          "ko": "합병 루머를 들었지만, 너무 곧이곧대로 믿지는 마세요."
+        },
+        {
+          "en": "You should take his promises with a grain of salt until you see the contract.",
+          "ko": "계약서를 보기 전까지는 그의 약속을 걸러서 들어야 합니다."
+        },
+        {
+          "en": "Take the online reviews with a grain of salt; some might be fake.",
+          "ko": "온라인 리뷰를 너무 믿지는 마세요. 가짜일 수도 있으니까요."
+        },
+        {
+          "en": "He tends to exaggerate, so I take everything he says with a grain of salt.",
+          "ko": "그는 과장하는 경향이 있어서, 저는 그가 하는 말을 다 믿지 않습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-045",
+      "idiom": "test the waters",
+      "meaning_ko": "사전 조사를 하다, 상황을 떠보다",
+      "examples": [
+        {
+          "en": "We should test the waters with a pilot program before the full launch.",
+          "ko": "정식 출시 전에 파일럿 프로그램으로 상황을 먼저 파악해 봅시다."
+        },
+        {
+          "en": "The company is testing the waters in the European market.",
+          "ko": "그 회사는 유럽 시장의 반응을 살피고 있습니다."
+        },
+        {
+          "en": "I'm going to test the waters and see if the boss is in a good mood.",
+          "ko": "상사 기분이 괜찮은지 분위기를 좀 떠볼게요."
+        },
+        {
+          "en": "Before investing, let's test the waters by talking to some potential users.",
+          "ko": "투자하기 전에 잠재 사용자들의 반응을 먼저 확인해 봅시다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-046",
+      "idiom": "the elephant in the room",
+      "meaning_ko": "모두가 알지만 언급하기 꺼리는 큰 문제",
+      "examples": [
+        {
+          "en": "The upcoming layoffs were the elephant in the room during the meeting.",
+          "ko": "다가올 해고 소식은 회의 내내 모두가 알면서도 꺼내지 못한 화두였습니다."
+        },
+        {
+          "en": "We need to talk about the budget deficit; it's the elephant in the room.",
+          "ko": "예산 부족 문제를 논의해야 합니다. 그게 가장 큰 문제니까요."
+        },
+        {
+          "en": "No one wanted to mention the CEO's mistake, even though it was the elephant in the room.",
+          "ko": "CEO의 실수가 명백한 문제였음에도 아무도 이를 언급하려 하지 않았습니다."
+        },
+        {
+          "en": "Let's address the elephant in the room: why is our retention rate so low?",
+          "ko": "불편한 진실을 짚고 넘어갑시다. 왜 우리 퇴사율이 이렇게 높은 거죠?"
+        }
+      ]
+    },
+    {
+      "id": "c-202601-047",
+      "idiom": "under the weather",
+      "meaning_ko": "몸 상태가 좋지 않은",
+      "examples": [
+        {
+          "en": "I’m feeling a bit under the weather, so I’ll be working from home today.",
+          "ko": "몸 상태가 좀 안 좋아서 오늘은 재택근무를 하겠습니다."
+        },
+        {
+          "en": "Our manager is under the weather, so the meeting has been postponed.",
+          "ko": "매니저님 컨디션이 안 좋으셔서 회의가 연기되었습니다."
+        },
+        {
+          "en": "He looks a bit under the weather; maybe he should take the afternoon off.",
+          "ko": "그가 좀 아파 보이네요. 오후에 쉬게 하는 게 좋겠어요."
+        },
+        {
+          "en": "I was under the weather last week, but I'm back to normal now.",
+          "ko": "지난주에 몸이 좀 안 좋았는데, 이제는 괜찮아졌습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-048",
+      "idiom": "up to speed",
+      "meaning_ko": "최신 정보를 잘 알고 있는",
+      "examples": [
+        {
+          "en": "Are you up to speed with the latest changes in the software?",
+          "ko": "소프트웨어의 최신 변경 사항에 대해 잘 알고 계신가요?"
+        },
+        {
+          "en": "I need a few days to get up to speed on this new project.",
+          "ko": "이 새 프로젝트 파악을 위해 며칠이 더 필요합니다."
+        },
+        {
+          "en": "Once everyone is up to speed, we can begin the implementation.",
+          "ko": "모두가 내용을 파악하면 구현을 시작할 수 있습니다."
+        },
+        {
+          "en": "He’s very quick at getting up to speed with new technologies.",
+          "ko": "그는 새로운 기술을 익히고 파악하는 속도가 매우 빠릅니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-049",
+      "idiom": "cut one's losses",
+      "meaning_ko": "더 큰 손실을 막기 위해 일찍 포기하다",
+      "examples": [
+        {
+          "en": "We should cut our losses and cancel the project now.",
+          "ko": "더 큰 손해를 보기 전에 지금 프로젝트를 중단해야 합니다."
+        },
+        {
+          "en": "It's hard to admit failure, but it's time to cut our losses.",
+          "ko": "실패를 인정하긴 어렵지만, 지금 손을 떼야 할 때입니다."
+        },
+        {
+          "en": "The investment isn't paying off, so we decided to cut our losses.",
+          "ko": "투자가 성과를 못 내고 있어서 손절하기로 결정했습니다."
+        },
+        {
+          "en": "Sometimes the smartest move is to cut your losses and move on.",
+          "ko": "때로는 손해를 감수하고 포기한 뒤 다음으로 넘어가는 것이 현명한 선택입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-050",
+      "idiom": "go the extra mile",
+      "meaning_ko": "기대 이상의 특별한 노력을 하다",
+      "examples": [
+        {
+          "en": "Our team is always willing to go the extra mile for our clients.",
+          "ko": "우리 팀은 고객을 위해 항상 기대 이상의 노력을 할 준비가 되어 있습니다."
+        },
+        {
+          "en": "She went the extra mile by working over the weekend to finish the report.",
+          "ko": "그녀는 보고서를 끝내기 위해 주말에도 근무하며 특별한 노력을 기울였습니다."
+        },
+        {
+          "en": "To stay competitive, we need to go the extra mile in our customer service.",
+          "ko": "경쟁력을 유지하려면 고객 서비스에서 한발 더 나아가는 노력이 필요합니다."
+        },
+        {
+          "en": "He always goes the extra mile, which is why he was promoted so quickly.",
+          "ko": "그는 항상 기대 이상으로 노력하기 때문에 승진이 매우 빨랐습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-051",
+      "idiom": "get the hang of it",
+      "meaning_ko": "요령을 터득하다, 익숙해지다",
+      "examples": [
+        {
+          "en": "The new CRM system is tricky, but you'll soon get the hang of it.",
+          "ko": "새 CRM 시스템이 까다롭긴 하지만, 곧 요령을 터득하게 될 거예요."
+    },
+        {
+          "en": "It took me a few weeks to get the hang of the reporting process.",
+          "ko": "보고 프로세스에 익숙해지는 데 몇 주 정도 걸렸습니다."
+        },
+        {
+          "en": "Once you get the hang of it, your productivity will increase.",
+          "ko": "요령만 터득하면 생산성이 크게 오를 것입니다."
+        },
+        {
+          "en": "I'm starting to get the hang of working with the remote team.",
+          "ko": "원격 팀과 협업하는 방식에 점점 익숙해지고 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-052",
+      "idiom": "keep a low profile",
+      "meaning_ko": "저자세를 유지하다, 눈에 띄지 않게 행동하다",
+      "examples": [
+        {
+          "en": "He decided to keep a low profile after the merger was announced.",
+          "ko": "그는 합병이 발표된 후 당분간 눈에 띄지 않게 행동하기로 했습니다."
+        },
+        {
+          "en": "Until the internal investigation is over, it’s best to keep a low profile.",
+          "ko": "내부 조사가 끝날 때까지는 저자세를 유지하는 것이 최선입니다."
+        },
+        {
+          "en": "She kept a low profile at the conference to focus on networking.",
+          "ko": "그녀는 네트워킹에 집중하기 위해 컨퍼런스에서 눈에 띄지 않게 행동했습니다."
+        },
+        {
+          "en": "The CEO is keeping a low profile following the recent controversy.",
+          "ko": "최근의 논란 이후 CEO는 대외 활동을 자제하고 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-053",
+      "idiom": "in the red",
+      "meaning_ko": "적자 상태인",
+      "examples": [
+        {
+          "en": "The company has been in the red for three consecutive quarters.",
+          "ko": "그 회사는 3분기 연속으로 적자 상태입니다."
+        },
+        {
+          "en": "We need to cut costs to avoid staying in the red this year.",
+          "ko": "올해 적자를 면하려면 비용을 절감해야 합니다."
+        },
+        {
+          "en": "Our department is finally out of the red and showing profit.",
+          "ko": "우리 부서가 마침내 적자에서 벗어나 이익을 내고 있습니다."
+        },
+        {
+          "en": "High production costs have kept the project in the red.",
+          "ko": "높은 생산 비용 때문에 프로젝트가 계속 적자를 기록하고 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-054",
+      "idiom": "burn the midnight oil",
+      "meaning_ko": "밤늦게까지 열심히 일하다",
+      "examples": [
+        {
+          "en": "The whole team had to burn the midnight oil to meet the deadline.",
+          "ko": "마감 기한을 맞추기 위해 팀 전체가 밤늦게까지 일해야 했습니다."
+        },
+        {
+          "en": "I’ve been burning the midnight oil lately to finish the audit.",
+          "ko": "회계 감사를 마무리하느라 최근 계속 밤늦게까지 근무하고 있습니다."
+        },
+        {
+          "en": "Success doesn't come easy; you often have to burn the midnight oil.",
+          "ko": "성공은 쉽지 않습니다. 종종 밤잠을 설쳐가며 일해야 하죠."
+        },
+        {
+          "en": "He’s burning the midnight oil preparing for the board meeting.",
+          "ko": "그는 이사회 회의 준비를 위해 밤늦게까지 열중하고 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-055",
+      "idiom": "on the back burner",
+      "meaning_ko": "뒷전으로 밀려난, 보류된",
+      "examples": [
+        {
+          "en": "The website redesign has been put on the back burner for now.",
+          "ko": "웹사이트 리뉴얼 작업은 현재 뒷전으로 밀려나 있습니다."
+        },
+        {
+          "en": "We have to put this project on the back burner and focus on the crisis.",
+          "ko": "이 프로젝트는 일단 미뤄두고 위기 상황에 집중해야 합니다."
+        },
+        {
+          "en": "Is the expansion plan still on the back burner?",
+          "ko": "확장 계획은 여전히 보류 중인가요?"
+        },
+        {
+          "en": "I’ll keep your suggestion on the back burner until we have more budget.",
+          "ko": "예산이 더 확보될 때까지 당신의 제안을 잠시 보류해 두겠습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-056",
+      "idiom": "play hardball",
+      "meaning_ko": "강경책을 쓰다, 타협하지 않다",
+      "examples": [
+        {
+          "en": "The vendor is playing hardball with the contract terms.",
+          "ko": "공급업체가 계약 조건을 두고 강경한 입장을 고수하고 있습니다."
+        },
+        {
+          "en": "If they don't lower the price, we might have to play hardball.",
+          "ko": "그들이 가격을 내리지 않는다면 우리도 강경하게 나가야 할 것입니다."
+        },
+        {
+          "en": "She's known for playing hardball during salary negotiations.",
+          "ko": "그녀는 연봉 협상에서 아주 강경하게 구는 것으로 유명합니다."
+        },
+        {
+          "en": "Our competitors are playing hardball to gain market share.",
+          "ko": "경쟁사들이 시장 점유율을 높이기 위해 아주 공격적으로 나오고 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-057",
+      "idiom": "miss the boat",
+      "meaning_ko": "기회를 놓치다",
+      "examples": [
+        {
+          "en": "If we don't invest in AI now, we might miss the boat.",
+          "ko": "지금 AI에 투자하지 않으면 기회를 놓칠 수도 있습니다."
+        },
+        {
+          "en": "He missed the boat on the early promotion because of the error.",
+          "ko": "그는 실수 때문에 조기 승진 기회를 놓쳤습니다."
+        },
+        {
+          "en": "We missed the boat on that property deal; someone else bought it.",
+          "ko": "부동산 거래 기회를 놓쳤어요. 다른 사람이 이미 샀더라고요."
+        },
+        {
+          "en": "Don't miss the boat by waiting too long to make a decision.",
+          "ko": "결정을 너무 오래 미뤄서 기회를 놓치지 마세요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-058",
+      "idiom": "hands are tied",
+      "meaning_ko": "권한이 없어 어쩔 도리가 없다",
+      "examples": [
+        {
+          "en": "I'd love to help you, but my hands are tied by company policy.",
+          "ko": "도와드리고 싶지만, 회사 규정상 제가 할 수 있는 게 없습니다."
+        },
+        {
+          "en": "The manager's hands are tied until the legal team gives approval.",
+          "ko": "법무팀의 승인이 날 때까지 매니저도 어쩔 도리가 없는 상황입니다."
+        },
+        {
+          "en": "My hands are tied regarding the budget for this quarter.",
+          "ko": "이번 분기 예산에 대해서는 저에게 결정권이 없습니다."
+        },
+        {
+          "en": "We want to negotiate, but our hands are tied by the contract.",
+          "ko": "협상을 원하지만, 계약서 내용 때문에 움직일 수가 없습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-059",
+      "idiom": "barking up the wrong tree",
+      "meaning_ko": "엉뚱한 곳에서 원인을 찾다, 잘못 짚다",
+      "examples": [
+        {
+          "en": "If you think I made the mistake, you're barking up the wrong tree.",
+          "ko": "제가 실수를 했다고 생각하신다면, 번지수를 잘못 짚으신 겁니다."
+        },
+        {
+          "en": "The marketing team is barking up the wrong tree with this campaign.",
+          "ko": "마케팅팀이 이번 캠페인에서 타겟을 잘못 짚고 있는 것 같습니다."
+        },
+        {
+          "en": "We're barking up the wrong tree focusing on the UI; it's a backend issue.",
+          "ko": "UI에 집중하는 건 잘못된 방향입니다. 이건 백엔드 문제예요."
+        },
+        {
+          "en": "He was barking up the wrong tree trying to get a discount from me.",
+          "ko": "저에게 할인을 받으려 하다니 그는 사람을 잘못 찾아왔습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-060",
+      "idiom": "up to par",
+      "meaning_ko": "기대 수준에 부합하는",
+      "examples": [
+        {
+          "en": "The quality of the initial draft wasn't up to par.",
+          "ko": "초안의 품질이 기대했던 수준에 미치지 못했습니다."
+        },
+        {
+          "en": "We need to ensure our customer service is always up to par.",
+          "ko": "고객 서비스가 항상 일정 수준 이상을 유지하도록 해야 합니다."
+        },
+        {
+          "en": "His performance has been up to par since the training session.",
+          "ko": "교육 이후로 그의 성과는 기대 수준에 잘 부합하고 있습니다."
+        },
+        {
+          "en": "If the safety standards aren't up to par, the factory will be closed.",
+          "ko": "안전 기준이 미달될 경우 공장은 폐쇄될 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-061",
+      "idiom": "a long shot",
+      "meaning_ko": "거의 승산 없는 일, 무리한 시도",
+      "examples": [
+        {
+          "en": "Getting the contract signed by Friday is a long shot.",
+          "ko": "금요일까지 계약 체결을 완료하는 건 거의 불가능에 가깝습니다."
+        },
+        {
+          "en": "It’s a long shot, but let’s try to ask for a 50% discount.",
+          "ko": "무리인 줄은 알지만, 50% 할인을 한번 요청해 봅시다."
+        },
+        {
+          "en": "His promotion is a long shot given his recent performance issues.",
+          "ko": "최근의 성과 문제를 고려할 때 그의 승진은 가능성이 희박합니다."
+        },
+        {
+          "en": "Winning this tender is a long shot, but the experience will be valuable.",
+          "ko": "이 입찰에서 이기긴 어렵겠지만, 경험은 가치가 있을 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-062",
+      "idiom": "at the end of the day",
+      "meaning_ko": "결국, 가장 중요한 것은",
+      "examples": [
+        {
+          "en": "At the end of the day, customer satisfaction is what matters most.",
+          "ko": "결국 가장 중요한 것은 고객 만족입니다."
+        },
+        {
+          "en": "At the end of the day, we have to make a profit to survive.",
+          "ko": "결국 우리가 살아남으려면 수익을 내야 합니다."
+        },
+        {
+          "en": "You can offer many excuses, but at the end of the day, the work isn't done.",
+          "ko": "변명은 많겠지만, 결국 결과적으로 일이 끝나지 않은 게 팩트입니다."
+        },
+        {
+          "en": "At the end of the day, it's the CEO who makes the final decision.",
+          "ko": "결국 최종 결정을 내리는 사람은 CEO입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-063",
+      "idiom": "back to square one",
+      "meaning_ko": "완전 원점으로 돌아가다",
+      "examples": [
+        {
+          "en": "The partnership failed, so we're back to square one.",
+          "ko": "파트너십이 결렬되어 우리는 다시 원점으로 돌아왔습니다."
+        },
+        {
+          "en": "If the board rejects this, it’s back to square one for the design team.",
+          "ko": "이사회가 이를 거절하면 디자인 팀은 처음부터 다시 시작해야 합니다."
+        },
+        {
+          "en": "Losing that data means we are back to square one with our research.",
+          "ko": "데이터를 잃어버린 것은 우리 연구가 원점으로 돌아갔음을 의미합니다."
+        },
+        {
+          "en": "I thought we had a deal, but now it looks like we're back to square one.",
+          "ko": "합의가 된 줄 알았는데, 지금 보니 다시 처음부터 시작해야 할 것 같네요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-064",
+      "idiom": "ball is in your court",
+      "meaning_ko": "이제 당신의 결정(차례)에 달려 있다",
+      "examples": [
+        {
+          "en": "We've made our best offer; now the ball is in your court.",
+          "ko": "저희는 최선의 제안을 드렸습니다. 이제 결정은 귀하께 달렸습니다."
+        },
+        {
+          "en": "I've provided all the information you asked for; the ball is in your court.",
+          "ko": "요청하신 자료는 다 드렸으니, 이제 다음 단계는 당신 차례입니다."
+        },
+        {
+          "en": "The ball is in their court regarding the next steps of the merger.",
+          "ko": "합병의 다음 단계에 대해서는 그쪽의 답변을 기다리고 있는 상태입니다."
+        },
+        {
+          "en": "I’ve done my part of the presentation; the ball is in your court now.",
+          "ko": "제 발표 분량은 끝냈습니다. 이제 당신이 할 차례예요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-065",
+      "idiom": "beat around the bush",
+      "meaning_ko": "본론을 피하고 말을 돌리다",
+      "examples": [
+        {
+          "en": "Stop beating around the bush and tell me the total cost.",
+          "ko": "말 돌리지 말고 총비용이 얼마인지 말씀해 주세요."
+        },
+        {
+          "en": "The manager didn't beat around the bush and fired him immediately.",
+          "ko": "매니저는 말을 돌리지 않고 즉시 그를 해고했습니다."
+        },
+        {
+          "en": "We don't have much time, so please don't beat around the bush.",
+          "ko": "시간이 별로 없으니 요점만 말씀해 주세요."
+        },
+        {
+          "en": "He was beating around the bush because he didn't want to deliver the bad news.",
+          "ko": "그는 나쁜 소식을 전하고 싶지 않아서 말을 빙빙 돌리고 있었습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-066",
+      "idiom": "bite the bullet",
+      "meaning_ko": "어려운 상황을 참고 견디다, (하기 싫지만) 결단을 내리다",
+      "examples": [
+        {
+          "en": "We have to bite the bullet and accept the budget cuts.",
+          "ko": "우리는 고통스럽더라도 예산 삭감을 받아들여야 합니다."
+        },
+        {
+          "en": "I finally bit the bullet and told my boss I'm resigning.",
+          "ko": "드디어 결심을 굳히고 상사에게 사직 의사를 밝혔습니다."
+        },
+        {
+          "en": "The company decided to bite the bullet and recall the faulty products.",
+          "ko": "회사는 큰 손해를 감수하고 결함을 가진 제품들을 리콜하기로 했습니다."
+        },
+        {
+          "en": "It’s a tough market, but we need to bite the bullet and keep moving.",
+          "ko": "힘든 시장 상황이지만, 우리는 악물고 계속 나아가야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-067",
+      "idiom": "break the ice",
+      "meaning_ko": "어색한 분위기를 깨다, 서먹함을 없애다",
+      "examples": [
+        {
+          "en": "He told a joke to break the ice at the start of the workshop.",
+          "ko": "그는 워크숍 시작 전 어색한 분위기를 깨기 위해 농담을 했습니다."
+        },
+        {
+          "en": "A small gift is a good way to break the ice with a new client.",
+          "ko": "작은 선물은 새로운 고객과의 서먹함을 없애는 좋은 방법입니다."
+        },
+        {
+          "en": "Let's have a quick round of introductions to break the ice.",
+          "ko": "서색함을 없애기 위해 간단히 자기소개부터 하죠."
+        },
+        {
+          "en": "The team dinner helped break the ice between the two departments.",
+          "ko": "팀 회식 덕분에 두 부서 사이의 어색함이 많이 사라졌습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-068",
+      "idiom": "call the shots",
+      "meaning_ko": "결정권을 갖다, 지휘하다",
+      "examples": [
+        {
+          "en": "In this project, the lead developer calls the shots.",
+          "ko": "이 프로젝트에서는 수석 개발자가 모든 결정을 내립니다."
+        },
+        {
+          "en": "He’s the one who calls the shots in the marketing department.",
+          "ko": "그는 마케팅 부서에서 실질적인 지휘권을 가진 사람입니다."
+        },
+        {
+          "en": "As the main investor, she wants to call the shots on future strategy.",
+          "ko": "주요 투자자로서 그녀는 향후 전략에 대해 결정권을 행사하고 싶어 합니다."
+        },
+        {
+          "en": "Who really calls the shots in this company?",
+          "ko": "이 회사의 실세는 누구입니까?"
+        }
+      ]
+    },
+    {
+      "id": "c-202601-069",
+      "idiom": "climb the corporate ladder",
+      "meaning_ko": "회사에서 출세하다, 승진 가도를 달리다",
+      "examples": [
+        {
+          "en": "He worked hard for ten years to climb the corporate ladder.",
+          "ko": "그는 10년 동안 열심히 일하며 차근차근 승진했습니다."
+        },
+        {
+          "en": "Climbing the corporate ladder requires more than just technical skills.",
+          "ko": "회사에서 높은 자리로 올라가려면 기술적인 능력 이상의 것이 필요합니다."
+        },
+        {
+          "en": "She has no interest in climbing the corporate ladder; she prefers her current role.",
+          "ko": "그녀는 승진에 관심이 없습니다. 현재의 역할에 만족하고 있죠."
+        },
+        {
+          "en": "Some people value work-life balance over climbing the corporate ladder.",
+          "ko": "어떤 사람들은 출세보다 워라밸을 더 중요하게 생각합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-070",
+      "idiom": "face the music",
+      "meaning_ko": "자신의 잘못에 대해 책임을 지다, 비판을 받아들이다",
+      "examples": [
+        {
+          "en": "After the failed product launch, the CEO had to face the music from investors.",
+          "ko": "실패한 제품 출시 이후, CEO는 투자자들의 비판을 감수해야 했습니다."
+        },
+        {
+          "en": "I made a huge mistake on the budget, and now I have to face the music.",
+          "ko": "예산 관련해서 큰 실수를 저질렀고, 이제 그 책임을 져야 합니다."
+        },
+        {
+          "en": "He knew he would have to face the music if the report was late.",
+          "ko": "그는 보고서가 늦어지면 호된 비판을 받게 될 것임을 알고 있었습니다."
+        },
+        {
+          "en": "Stop hiding and face the music; apologize for what happened.",
+          "ko": "숨지 말고 당당히 나서서 책임을 지세요. 일어난 일에 대해 사과하십시오."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-071",
+      "idiom": "get the green light",
+      "meaning_ko": "허가(승인)를 받다",
+      "examples": [
+        {
+          "en": "We're just waiting to get the green light from the board.",
+          "ko": "우리는 이사회의 최종 승인만을 기다리고 있습니다."
+        },
+        {
+          "en": "Once we get the green light, we can start the hiring process.",
+          "ko": "허가가 떨어지면 바로 채용 절차를 시작할 수 있습니다."
+        },
+        {
+          "en": "The project finally got the green light after months of planning.",
+          "ko": "몇 달간의 계획 끝에 프로젝트가 마침내 승인을 받았습니다."
+        },
+        {
+          "en": "Did you get the green light to increase the marketing budget?",
+          "ko": "마케팅 예산 증액 승인을 받으셨나요?"
+        }
+      ]
+    },
+    {
+      "id": "c-202601-072",
+      "idiom": "go down the drain",
+      "meaning_ko": "수포로 돌아가다, 헛수고가 되다",
+      "examples": [
+        {
+          "en": "Months of hard work went down the drain when the project was canceled.",
+          "ko": "프로젝트가 취소되면서 몇 달간의 노력이 수포로 돌아갔습니다."
+        },
+        {
+          "en": "We can't let all this investment go down the drain.",
+          "ko": "이 모든 투자가 헛수고가 되게 내버려 둘 수는 없습니다."
+        },
+        {
+          "en": "His reputation went down the drain after the scandal.",
+          "ko": "그의 명성은 스캔들 이후 바닥으로 떨어졌습니다."
+        },
+        {
+          "en": "Without a clear strategy, all our money will go down the drain.",
+          "ko": "명확한 전략 없이는 우리의 모든 돈을 날리게 될 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-073",
+      "idiom": "hit the ground running",
+      "meaning_ko": "지체 없이(의욕적으로) 일을 시작하다",
+      "examples": [
+        {
+          "en": "The new manager hit the ground running and already implemented changes.",
+          "ko": "새 매니저는 부임하자마자 지체 없이 변화를 실행에 옮겼습니다."
+        },
+        {
+          "en": "We need someone who can hit the ground running from day one.",
+          "ko": "우리는 첫날부터 바로 업무에 투입되어 성과를 낼 사람이 필요합니다."
+        },
+        {
+          "en": "After the holiday break, the team hit the ground running to finish the project.",
+          "ko": "연휴가 끝난 후, 팀은 프로젝트 마무리를 위해 의욕적으로 일을 시작했습니다."
+        },
+        {
+          "en": "I want to hit the ground running with the new marketing campaign.",
+          "ko": "새 마케팅 캠페인을 지체 없이 바로 추진하고 싶습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-074",
+      "idiom": "keep your chin up",
+      "meaning_ko": "기운을 내다, 낙담하지 않다",
+      "examples": [
+        {
+          "en": "Keep your chin up! We’ll find a way to fix this issue.",
+          "ko": "기운 내세요! 이 문제를 해결할 방법을 찾을 수 있을 거예요."
+        },
+        {
+          "en": "It’s a tough situation, but try to keep your chin up.",
+          "ko": "힘든 상황이지만, 낙심하지 말고 힘내세요."
+        },
+        {
+          "en": "He told the team to keep their chin up despite the loss of the client.",
+          "ko": "그는 고객사를 잃었음에도 불구하고 팀원들에게 기운 내라고 격려했습니다."
+        },
+        {
+          "en": "Keep your chin up; you’ll do better on the next presentation.",
+          "ko": "고개 숙이지 마세요. 다음 발표 때는 더 잘할 수 있을 거예요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-075",
+      "idiom": "learn the ropes",
+      "meaning_ko": "업무 요령을 배우다",
+      "examples": [
+        {
+          "en": "It will take you a few weeks to learn the ropes in this department.",
+          "ko": "이 부서의 업무 요령을 익히는 데 몇 주 정도 걸릴 것입니다."
+        },
+        {
+          "en": "The intern is still learning the ropes and needs some guidance.",
+          "ko": "인턴은 아직 업무를 배우는 중이라 지도가 좀 필요합니다."
+        },
+        {
+          "en": "I'm helping the new hire learn the ropes of our software.",
+          "ko": "신입 사원이 우리 소프트웨어 사용법을 익히는 것을 돕고 있습니다."
+        },
+        {
+          "en": "Once you learn the ropes, the job becomes much easier.",
+          "ko": "일단 요령을 터득하고 나면 일이 훨씬 쉬워질 거예요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-076",
+      "idiom": "long story short",
+      "meaning_ko": "말하자면 긴데 (간단히 말하면)",
+      "examples": [
+        {
+          "en": "Long story short, the deal fell through at the last minute.",
+          "ko": "간단히 말하자면, 계약이 마지막 순간에 무산되었습니다."
+        },
+        {
+          "en": "Long story short, we decided to hire someone else.",
+          "ko": "결론만 말씀드리면, 우리는 다른 사람을 채용하기로 했습니다."
+        },
+        {
+          "en": "Long story short, the flight was delayed and I missed the meeting.",
+          "ko": "요점만 말하면, 비행기가 지연되어 회의에 참석하지 못했습니다."
+        },
+        {
+          "en": "Anyway, long story short, we need to restart the whole process.",
+          "ko": "어쨌든 짧게 요약하면, 프로세스 전체를 다시 시작해야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-077",
+      "idiom": "not my cup of tea",
+      "meaning_ko": "내 취향이 아닌, 내가 선호하지 않는 것",
+      "examples": [
+        {
+          "en": "Public speaking is not really my cup of tea.",
+          "ko": "대중 앞에서의 연설은 제 적성에 잘 맞지 않습니다."
+        },
+        {
+          "en": "That marketing strategy is interesting, but it's not my cup of tea.",
+          "ko": "그 마케팅 전략이 흥미롭긴 하지만, 제가 선호하는 방식은 아니네요."
+        },
+        {
+          "en": "Sales might be someone's dream job, but it’s not my cup of tea.",
+          "ko": "영업이 누군가에겐 꿈의 직업일지 몰라도, 저와는 맞지 않습니다."
+        },
+        {
+          "en": "I tried coding, but I realized it's not my cup of tea.",
+          "ko": "코딩을 해봤는데, 저랑은 잘 안 맞는다는 걸 깨달았습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-078",
+      "idiom": "on the fly",
+      "meaning_ko": "즉석에서, 준비 없이 바로",
+      "examples": [
+        {
+          "en": "I had to make the presentation on the fly because the speaker was late.",
+          "ko": "연사가 늦어서 제가 즉석에서 발표를 해야 했습니다."
+        },
+        {
+          "en": "The developers fixed the bug on the fly during the demo.",
+          "ko": "개발자들이 시연 도중에 즉석에서 버그를 수정했습니다."
+        },
+        {
+          "en": "In startup life, you often have to make decisions on the fly.",
+          "ko": "스타트업에서는 종종 즉석에서 결정을 내려야 할 때가 많습니다."
+        },
+        {
+          "en": "We can't just change the policy on the fly; we need a proper review.",
+          "ko": "정책을 즉흥적으로 바꿀 수는 없습니다. 제대로 된 검토가 필요해요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-079",
+      "idiom": "off the cuff",
+      "meaning_ko": "사전 준비 없이 즉흥적으로",
+      "examples": [
+        {
+          "en": "I'm speaking off the cuff here, but I think we need more time.",
+          "ko": "준비 없이 드리는 말씀입니다만, 시간이 더 필요할 것 같습니다."
+        },
+        {
+          "en": "The CEO's off the cuff remarks caused some confusion.",
+          "ko": "CEO의 즉흥적인 발언이 다소 혼란을 야기했습니다."
+        },
+        {
+          "en": "She is very good at answering difficult questions off the cuff.",
+          "ko": "그녀는 어려운 질문에 즉석에서 대답하는 데 아주 능숙합니다."
+        },
+        {
+          "en": "Don't take my numbers as final; I'm just quoting them off the cuff.",
+          "ko": "제 수치를 확정된 것으로 보지 마세요. 그냥 기억나는 대로 말씀드린 겁니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-080",
+      "idiom": "out of the blue",
+      "meaning_ko": "갑자기, 느닷없이",
+      "examples": [
+        {
+          "en": "I received an offer from a competitor out of the blue.",
+          "ko": "경쟁사로부터 갑자기 입사 제의를 받았습니다."
+        },
+        {
+          "en": "The system crash happened out of the blue during the peak hours.",
+          "ko": "피크 시간대에 예고도 없이 시스템이 다운되었습니다."
+        },
+        {
+          "en": "Out of the blue, the client decided to cancel the contract.",
+          "ko": "갑자기 고객사가 계약을 해지하기로 결정했습니다."
+        },
+        {
+          "en": "He resigned out of the blue, leaving us without a lead developer.",
+          "ko": "그가 갑자기 사임하는 바람에 리드 개발자 없이 남게 되었습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-081",
+      "idiom": "pass the buck",
+      "meaning_ko": "책임을 전가하다",
+      "examples": [
+        {
+          "en": "Don't try to pass the buck; you were responsible for the data entry.",
+          "ko": "책임을 떠넘기지 마세요. 데이터 입력 책임은 당신에게 있었습니다."
+        },
+        {
+          "en": "The manager passed the buck to the HR department when employees complained.",
+          "ko": "직원들이 불만을 제기하자 매니저는 인사팀으로 책임을 돌렸습니다."
+        },
+        {
+          "en": "Instead of solving the problem, they are just passing the buck.",
+          "ko": "문제를 해결하기는커녕, 그들은 그저 서로 책임만 떠넘기고 있습니다."
+        },
+        {
+          "en": "In a good team, no one should pass the buck when things go wrong.",
+          "ko": "좋은 팀이라면 일이 잘못되었을 때 누구도 책임을 전가하지 않아야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-082",
+      "idiom": "put someone on the spot",
+      "meaning_ko": "누구를 곤란하게 만들다 (답하기 어려운 질문 등으로)",
+      "examples": [
+        {
+          "en": "I'm sorry to put you on the spot, but we need an answer now.",
+          "ko": "곤란하게 해드려 죄송하지만, 지금 바로 답변이 필요합니다."
+        },
+        {
+          "en": "The journalist's question really put the spokesperson on the spot.",
+          "ko": "기자의 질문은 대변인을 매우 당혹스럽게 만들었습니다."
+        },
+        {
+          "en": "I don't like it when the manager puts me on the spot in front of everyone.",
+          "ko": "매니저가 사람들 앞에서 나를 곤란하게 만드는 게 정말 싫습니다."
+        },
+        {
+          "en": "Be prepared; the investors will definitely put you on the spot regarding the revenue.",
+          "ko": "준비하세요. 투자자들이 수익에 대해 분명히 대답하기 곤란한 질문을 던질 겁니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-083",
+      "idiom": "round-the-clock",
+      "meaning_ko": "24시간 내내, 쉬지 않고",
+      "examples": [
+        {
+          "en": "The support team provides round-the-clock service for our global clients.",
+          "ko": "지원 팀은 글로벌 고객들을 위해 24시간 내내 서비스를 제공합니다."
+        },
+        {
+          "en": "Engineers worked round-the-clock to restore the power supply.",
+          "ko": "엔지니어들은 전력 공급을 복구하기 위해 밤낮없이 일했습니다."
+        },
+        {
+          "en": "The security guards monitor the building round-the-clock.",
+          "ko": "보안 요원들이 24시간 내내 건물을 감시합니다."
+        },
+        {
+          "en": "We need round-the-clock coverage for the server monitoring.",
+          "ko": "서버 모니터링을 위해 24시간 상시 근무 체계가 필요합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-084",
+      "idiom": "run a tight ship",
+      "meaning_ko": "(조직 등을) 엄격하게 관리하다",
+      "examples": [
+        {
+          "en": "Our new CEO runs a tight ship and expects total efficiency.",
+          "ko": "새 CEO는 조직을 엄격하게 관리하며 완벽한 효율성을 기대합니다."
+        },
+        {
+          "en": "The project manager runs a tight ship, so no one is ever late.",
+          "ko": "프로젝트 매니저가 엄격해서 아무도 늦는 법이 없습니다."
+        },
+        {
+          "en": "To stay within the budget, we have to run a tight ship this year.",
+          "ko": "예산을 지키기 위해 올해는 조직을 매우 긴축적으로 운영해야 합니다."
+        },
+        {
+          "en": "She’s known for running a tight ship in the accounting department.",
+          "ko": "그녀는 회계 부서를 아주 엄격하고 빈틈없이 관리하는 것으로 유명합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-085",
+      "idiom": "safe bet",
+      "meaning_ko": "거의 확실한 것, 안전한 선택",
+      "examples": [
+        {
+          "en": "It’s a safe bet that the company will increase its dividends this year.",
+          "ko": "회사가 올해 배당금을 늘릴 것은 거의 확실해 보입니다."
+        },
+        {
+          "en": "Investing in gold is usually a safe bet during economic instability.",
+          "ko": "경제 불안정기에는 보통 금에 투자하는 것이 안전한 선택입니다."
+        },
+        {
+          "en": "It’s a safe bet to assume that the meeting will be postponed.",
+          "ko": "회의가 연기될 것이라고 생각하는 것이 타당할 것 같습니다."
+        },
+        {
+          "en": "Hiring her was a safe bet; she has an excellent track record.",
+          "ko": "그녀를 채용한 것은 확실한 선택이었습니다. 경력이 훌륭하거든요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-086",
+      "idiom": "see the big picture",
+      "meaning_ko": "큰 그림을 보다, 전체적인 상황을 파악하다",
+      "examples": [
+        {
+          "en": "Managers need to see the big picture rather than just focusing on small tasks.",
+          "ko": "관리자들은 작은 업무에만 집중하기보다 전체적인 큰 그림을 볼 줄 알아야 합니다."
+        },
+        {
+          "en": "It’s hard to see the big picture when you’re overwhelmed with daily work.",
+          "ko": "매일의 업무에 치이다 보면 전체적인 상황을 파악하기가 어렵습니다."
+        },
+        {
+          "en": "Let's step back and try to see the big picture of our market strategy.",
+          "ko": "한 걸음 물러나서 우리 시장 전략의 큰 그림을 그려봅시다."
+        },
+        {
+          "en": "The CEO's role is to see the big picture and guide the company's future.",
+          "ko": "CEO의 역할은 큰 흐름을 읽고 회사의 미래를 이끄는 것입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-087",
+      "idiom": "sever ties",
+      "meaning_ko": "관계를 끊다, 단절하다",
+      "examples": [
+        {
+          "en": "The company decided to sever ties with the unethical supplier.",
+          "ko": "회사는 비윤리적인 공급업체와 관계를 끊기로 결정했습니다."
+        },
+        {
+          "en": "They had to sever ties with their partner after the legal dispute.",
+          "ko": "법적 분쟁 이후 그들은 파트너와의 관계를 단절해야 했습니다."
+        },
+        {
+          "en": "We are planning to sever ties with that agency due to poor performance.",
+          "ko": "성과 부진을 이유로 해당 대행사와의 계약 관계를 종료할 계획입니다."
+        },
+        {
+          "en": "It’s difficult to sever ties with a long-term business partner.",
+          "ko": "장기적인 비즈니스 파트너와 관계를 끊는 것은 어려운 일입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-088",
+      "idiom": "stand out from the crowd",
+      "meaning_ko": "군계일학이다, 눈에 띄다",
+      "examples": [
+        {
+          "en": "To get the job, you need to make your resume stand out from the crowd.",
+          "ko": "취업을 하려면 이력서가 수많은 지원자 사이에서 눈에 띄어야 합니다."
+        },
+        {
+          "en": "Our new product features help us stand out from the crowd.",
+          "ko": "우리의 신제품 기능들은 우리가 경쟁사들 사이에서 돋보이게 해줍니다."
+        },
+        {
+          "en": "She really stands out from the crowd because of her leadership skills.",
+          "ko": "그녀는 리더십 덕분에 사람들 사이에서 정말 눈에 띕니다."
+        },
+        {
+          "en": "We need a unique marketing strategy to stand out from the crowd.",
+          "ko": "차별화되려면 독특한 마케팅 전략이 필요합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-089",
+      "idiom": "stay on top of things",
+      "meaning_ko": "상황을 잘 파악하고 있다, 업무 처리를 지체 없이 하다",
+      "examples": [
+        {
+          "en": "It’s hard to stay on top of things when you have so many meetings.",
+          "ko": "회의가 너무 많으면 모든 상황을 제때 파악하기가 어렵습니다."
+        },
+        {
+          "en": "I use a task manager to stay on top of things at work.",
+          "ko": "업무가 밀리지 않도록 할 일 관리 프로그램을 사용합니다."
+        },
+        {
+          "en": "The secretary helps the CEO stay on top of his busy schedule.",
+          "ko": "비서가 CEO의 바쁜 일정이 차질 없이 진행되도록 돕습니다."
+        },
+        {
+          "en": "You need to stay on top of industry trends to remain competitive.",
+          "ko": "경쟁력을 유지하려면 업계 트렌드를 꿰뚫고 있어야 합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-090",
+      "idiom": "take it with a pinch of salt",
+      "meaning_ko": "걸러서 듣다 (100% 믿지 않다)",
+      "examples": [
+        {
+          "en": "He’s known for exaggerating, so take his claims with a pinch of salt.",
+          "ko": "그는 과장이 심하니 그의 주장을 곧이곧대로 믿지 마세요."
+        },
+        {
+          "en": "I take everything the tabloid says with a pinch of salt.",
+          "ko": "저는 타블로이드 신문이 하는 말은 걸러서 듣습니다."
+        },
+        {
+          "en": "Take the initial feedback with a pinch of salt; it might change later.",
+          "ko": "초기 피드백을 너무 맹신하지 마세요. 나중에 바뀔 수도 있습니다."
+        },
+        {
+          "en": "You should take their promises with a pinch of salt until they sign.",
+          "ko": "그들이 서명하기 전까지는 그들의 약속을 다 믿어서는 안 됩니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-091",
+      "idiom": "the tip of the iceberg",
+      "meaning_ko": "빙산의 일각 (드러난 것은 아주 적은 부분임)",
+      "examples": [
+        {
+          "en": "These financial problems are just the tip of the iceberg.",
+          "ko": "이러한 재정적 문제들은 빙산의 일각에 불과합니다."
+        },
+        {
+          "en": "The complaints we received are only the tip of the iceberg.",
+          "ko": "우리가 받은 불만 사항은 전체 문제의 아주 작은 부분일 뿐입니다."
+        },
+        {
+          "en": "We fixed the bug, but it might be just the tip of the iceberg.",
+          "ko": "버그를 고치긴 했지만, 그게 빙산의 일각일 수도 있습니다."
+        },
+        {
+          "en": "The current success is just the tip of the iceberg of what’s coming.",
+          "ko": "현재의 성공은 앞으로 다가올 일들의 시작일 뿐입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-092",
+      "idiom": "think twice",
+      "meaning_ko": "심사숙고하다, 다시 한번 생각하다",
+      "examples": [
+        {
+          "en": "You should think twice before resigning without another job offer.",
+          "ko": "다른 일자리 제안 없이 사직하는 것에 대해 신중히 생각해야 합니다."
+        },
+        {
+          "en": "The high cost made us think twice about expanding this year.",
+          "ko": "높은 비용 때문에 올해 사업 확장을 재고하게 되었습니다."
+        },
+        {
+          "en": "Think twice before clicking on suspicious links in emails.",
+          "ko": "이메일의 의심스러운 링크를 클릭하기 전에 다시 한번 생각하세요."
+        },
+        {
+          "en": "I would think twice before partnering with that company.",
+          "ko": "저라면 저 회사와 파트너 관계를 맺는 것을 신중하게 다시 생각해 보겠습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-093",
+      "idiom": "throw in the towel",
+      "meaning_ko": "패배를 인정하다, 포기하다",
+      "examples": [
+        {
+          "en": "After three years of losses, they finally threw in the towel.",
+          "ko": "3년 연속 적자를 낸 끝에 그들은 결국 사업을 포기했습니다."
+        },
+        {
+          "en": "Don't throw in the towel just because the project is difficult.",
+          "ko": "프로젝트가 어렵다고 해서 중도에 포기하지 마세요."
+        },
+        {
+          "en": "The startup was forced to throw in the towel due to lack of funding.",
+          "ko": "그 스타트업은 자금 부족으로 인해 결국 문을 닫아야 했습니다."
+        },
+        {
+          "en": "He was ready to throw in the towel, but his team encouraged him.",
+          "ko": "그는 포기하려 했지만, 팀원들이 그를 격려했습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-094",
+      "idiom": "under the radar",
+      "meaning_ko": "세간의 주목을 받지 않는, 은밀하게 진행되는",
+      "examples": [
+        {
+          "en": "The project was developed under the radar to avoid competitors' attention.",
+          "ko": "경쟁사의 주의를 피하기 위해 그 프로젝트는 은밀하게 진행되었습니다."
+        },
+        {
+          "en": "He prefers to work under the radar and avoid office politics.",
+          "ko": "그는 사내 정치에 휘말리지 않고 조용히 일하는 것을 선호합니다."
+        },
+        {
+          "en": "The small startup stayed under the radar until it became successful.",
+          "ko": "그 작은 스타트업은 성공하기 전까지는 크게 주목받지 않았습니다."
+        },
+        {
+          "en": "Many changes were made under the radar without much public notice.",
+          "ko": "많은 변화가 대외적인 공표 없이 조용히 이루어졌습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-095",
+      "idiom": "up to speed",
+      "meaning_ko": "최신 정보를 잘 알고 있는",
+      "examples": [
+        {
+          "en": "I missed the meeting, so could you bring me up to speed?",
+          "ko": "회의에 빠졌는데, 지금까지의 내용을 좀 알려주시겠어요?"
+        },
+        {
+          "en": "It took him a week to get up to speed with the new software.",
+          "ko": "그가 새 소프트웨어에 익숙해지는 데 일주일이 걸렸습니다."
+        },
+        {
+          "en": "Are you up to speed with the current project status?",
+          "ko": "현재 프로젝트 진행 상황에 대해 잘 파악하고 계신가요?"
+        },
+        {
+          "en": "The training session is designed to get all employees up to speed.",
+          "ko": "이번 교육 세션은 모든 직원이 최신 정보를 파악할 수 있도록 설계되었습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-096",
+      "idiom": "word of mouth",
+      "meaning_ko": "입소문, 구전",
+      "examples": [
+        {
+          "en": "The product became popular mostly through word of mouth.",
+          "ko": "그 제품은 주로 입소문을 통해 인기를 얻었습니다."
+        },
+        {
+          "en": "Word of mouth is one of the most effective forms of advertising.",
+          "ko": "입소문은 가장 효과적인 광고 형태 중 하나입니다."
+        },
+        {
+          "en": "We rely on positive word of mouth to attract new customers.",
+          "ko": "우리는 신규 고객을 유치하기 위해 긍정적인 입소문에 의존합니다."
+        },
+        {
+          "en": "The scandal spread quickly through word of mouth.",
+          "ko": "그 스캔들은 입소문을 타고 빠르게 퍼져 나갔습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-097",
+      "idiom": "worth one's salt",
+      "meaning_ko": "제값을 하는, 유능한",
+      "examples": [
+        {
+          "en": "Any developer worth their salt should know how to use Git.",
+          "ko": "제값을 하는 개발자라면 누구나 Git 사용법을 알아야 합니다."
+        },
+        {
+          "en": "A manager worth his salt knows how to motivate his team.",
+          "ko": "유능한 매니저는 팀원들에게 동기를 부여하는 방법을 압니다."
+        },
+        {
+          "en": "Is the new consultant really worth her salt?",
+          "ko": "새로 온 컨설턴트가 정말 돈값을 할 만큼 유능한가요?"
+        },
+        {
+          "en": "He proved he was worth his salt by solving the crisis.",
+          "ko": "그는 위기를 해결함으로써 자신이 유능하다는 것을 증명했습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-098",
+      "idiom": "zero in on",
+      "meaning_ko": "~에 집중하다, 초점을 맞추다",
+      "examples": [
+        {
+          "en": "We need to zero in on the core issues during the meeting.",
+          "ko": "회의 중에 핵심 문제들에 집중해야 합니다."
+        },
+        {
+          "en": "The marketing team is zeroing in on the younger demographic.",
+          "ko": "마케팅팀은 젊은 층에 초점을 맞추고 있습니다."
+        },
+        {
+          "en": "Let's zero in on the most profitable products.",
+          "ko": "가장 수익성이 높은 제품들에 집중해 봅시다."
+        },
+        {
+          "en": "He zeroed in on the error in the financial report immediately.",
+          "ko": "그는 재무 보고서의 오류를 즉시 찾아내어 집중했습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-099",
+      "idiom": "back against the wall",
+      "meaning_ko": "막다른 골목에 처한, 궁지에 몰린",
+      "examples": [
+        {
+          "en": "With the bank calling in the loan, our back is against the wall.",
+          "ko": "은행이 대출 상환을 독촉하면서 우리는 궁지에 몰렸습니다."
+        },
+        {
+          "en": "We had our back against the wall, but we managed to find a solution.",
+          "ko": "막다른 골목에 처해 있었지만, 우리는 해결책을 찾아냈습니다."
+        },
+        {
+          "en": "He’s at his best when his back is against the wall.",
+          "ko": "그는 궁지에 몰렸을 때 최고의 실력을 발휘합니다."
+        },
+        {
+          "en": "The team had their back against the wall during the final minutes.",
+          "ko": "팀은 마지막 순간에 궁지에 몰린 상황이었습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-100",
+      "idiom": "cut to the bone",
+      "meaning_ko": "뼈를 깎는 (비용 등을 최대한으로 줄인)",
+      "examples": [
+        {
+          "en": "The budget has been cut to the bone, leaving no room for extras.",
+          "ko": "예산이 뼈를 깎을 정도로 줄어들어 여유가 전혀 없습니다."
+        },
+        {
+          "en": "We need to cut our operating costs to the bone to survive.",
+          "ko": "우리가 살아남으려면 운영비를 최대한으로 줄여야 합니다."
+        },
+        {
+          "en": "After the reorganization, the staff was cut to the bone.",
+          "ko": "조직 개편 이후 인력이 최소한으로 감축되었습니다."
+        },
+        {
+          "en": "Prices have been cut to the bone due to the intense competition.",
+          "ko": "치열한 경쟁 때문에 가격이 최대한으로 낮아졌습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-101",
+      "idiom": "get the message",
+      "meaning_ko": "말귀를 알아듣다, 의도를 파악하다",
+      "examples": [
+        {
+          "en": "He didn't say it directly, but I got the message.",
+          "ko": "그가 직접적으로 말하지는 않았지만, 무슨 뜻인지 알아들었습니다."
+        },
+        {
+          "en": "When they didn't reply to my emails, I finally got the message.",
+          "ko": "그들이 내 이메일에 답장하지 않았을 때, 비로소 상황을 파악했습니다."
+        },
+        {
+          "en": "I hope he got the message that his behavior was unacceptable.",
+          "ko": "그의 행동이 용납될 수 없다는 것을 그가 알아들었기를 바랍니다."
+        },
+        {
+          "en": "Did you get the message about the change in the meeting time?",
+          "ko": "회의 시간 변경에 대한 내용을 전달받으셨나요?"
+        }
+      ]
+    },
+    {
+      "id": "c-202601-102",
+      "idiom": "keep a lid on",
+      "meaning_ko": "비밀을 지키다, 억제하다",
+      "examples": [
+        {
+          "en": "The company tried to keep a lid on the news of the merger.",
+          "ko": "회사는 합병 소식을 비밀로 유지하려고 노력했습니다."
+        },
+        {
+          "en": "We need to keep a lid on our spending for the rest of the year.",
+          "ko": "올해 남은 기간 동안 지출을 억제해야 합니다."
+        },
+        {
+          "en": "He’s trying to keep a lid on his frustration during the meeting.",
+          "ko": "그는 회의 중에 자신의 좌절감을 억누르려 노력하고 있습니다."
+        },
+        {
+          "en": "Can you keep a lid on this until we're ready to announce it?",
+          "ko": "우리가 발표할 준비가 될 때까지 이 일을 비밀로 해주실 수 있나요?"
+        }
+      ]
+    },
+    {
+      "id": "c-202601-103",
+      "idiom": "on the horizon",
+      "meaning_ko": "곧 일어날 것 같은, 수평선 너머의",
+      "examples": [
+        {
+          "en": "Many changes are on the horizon for our industry.",
+          "ko": "우리 업계에 많은 변화가 예고되고 있습니다."
+        },
+        {
+          "en": "Is there any new project on the horizon?",
+          "ko": "조만간 새로 시작할 프로젝트가 있나요?"
+        },
+        {
+          "en": "The economic recovery is finally on the horizon.",
+          "ko": "경제 회복이 마침내 가시권에 들어왔습니다."
+        },
+        {
+          "en": "We see a potential problem on the horizon regarding the supply chain.",
+          "ko": "공급망과 관련하여 조만간 발생할 수 있는 문제를 인지하고 있습니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-104",
+      "idiom": "play it safe",
+      "meaning_ko": "신중하게 행동하다, 모험을 피하다",
+      "examples": [
+        {
+          "en": "Given the market volatility, we decided to play it safe.",
+          "ko": "시장의 변동성을 고려하여 우리는 신중하게 행동하기로 했습니다."
+        },
+        {
+          "en": "Instead of investing everything, let's play it safe and start small.",
+          "ko": "전부 투자하는 대신, 안전하게 소규모로 시작합시다."
+        },
+        {
+          "en": "It’s better to play it safe and double-check all the numbers.",
+          "ko": "모든 수치를 재확인하여 신중하게 처리하는 것이 좋습니다."
+        },
+        {
+          "en": "He’s a conservative investor who always prefers to play it safe.",
+          "ko": "그는 항상 안전한 선택을 선호하는 보수적인 투자자입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-105",
+      "idiom": "pull the plug",
+      "meaning_ko": "중단시키다, 손을 떼다",
+      "examples": [
+        {
+          "en": "The investors decided to pull the plug on the failing project.",
+          "ko": "투자자들은 성과가 나지 않는 프로젝트를 중단하기로 결정했습니다."
+        },
+        {
+          "en": "The company might pull the plug if the product doesn't sell well.",
+          "ko": "제품이 잘 팔리지 않으면 회사는 사업을 접을 수도 있습니다."
+        },
+        {
+          "en": "They finally pulled the plug on the old legacy system.",
+          "ko": "그들은 마침내 낡은 기존 시스템의 운영을 중단했습니다."
+        },
+        {
+          "en": "Don't pull the plug yet; give us one more week to fix it.",
+          "ko": "아직 포기하지 마세요. 고칠 수 있게 일주일만 더 시간을 주세요."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-106",
+      "idiom": "put all your eggs in one basket",
+      "meaning_ko": "한 곳에 모든 것을 걸다 (몰빵하다)",
+      "examples": [
+        {
+          "en": "Don't put all your eggs in one basket; diversify your investments.",
+          "ko": "한 곳에 모든 걸 걸지 마세요. 투자를 다양화해야 합니다."
+        },
+        {
+          "en": "We shouldn't rely on just one client; that's putting all our eggs in one basket.",
+          "ko": "단 한 명의 고객에게만 의존해서는 안 됩니다. 그것은 너무 위험한 도박입니다."
+        },
+        {
+          "en": "He learned the hard way not to put all his eggs in one basket.",
+          "ko": "그는 모든 것을 한꺼번에 거는 것이 위험하다는 것을 뼈저리게 배웠습니다."
+        },
+        {
+          "en": "The company's failure was due to putting all their eggs in one basket.",
+          "ko": "회사의 실패 원인은 한 가지 사업에만 모든 것을 걸었기 때문입니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-107",
+      "idiom": "set the record straight",
+      "meaning_ko": "오해를 바로잡다, 사실관계를 분명히 하다",
+      "examples": [
+        {
+          "en": "I’d like to set the record straight regarding the rumors about my resignation.",
+          "ko": "제 사퇴설에 대한 루머와 관련하여 사실관계를 바로잡고 싶습니다."
+        },
+        {
+          "en": "The PR department issued a statement to set the record straight.",
+          "ko": "홍보팀은 사실을 바로잡기 위해 성명을 발표했습니다."
+        },
+        {
+          "en": "Let me set the record straight; we never promised a 50% discount.",
+          "ko": "분명히 말씀드리겠습니다. 저희는 50% 할인을 약속한 적이 없습니다."
+        },
+        {
+          "en": "It’s important to set the record straight before the situation gets worse.",
+          "ko": "상황이 더 악화되기 전에 오해를 바로잡는 것이 중요합니다."
+        }
+      ]
+    },
+    {
+      "id": "c-202601-108",
+      "idiom": "stand your ground",
+      "meaning_ko": "자신의 입장을 고수하다, 굴복하지 않다",
+      "examples": [
+        {
+          "en": "He stood his ground even when the board pressured him to resign.",
+          "ko": "이사회가 사임을 압박했을 때도 그는 자신의 자리를 지켰습니다."
+        },
+        {
+          "en": "You need to stand your ground if you believe your proposal is the best.",
+          "ko": "당신의 제안이 최선이라고 믿는다면 입장을 굽히지 말아야 합니다."
+        },
+        {
+          "en": "The company is standing its ground in the legal battle.",
+          "ko": "회사는 법적 분쟁에서 강경한 입장을 고수하고 있습니다."
+        },
+        {
+          "en": "She stood her ground during the tough negotiation and got a better deal.",
+          "ko": "그녀는 힘든 협상 중에도 자신의 주장을 굽히지 않아 더 나은 계약을 얻어냈습니다."
+        }
+      ]
     }
   ]
-  
