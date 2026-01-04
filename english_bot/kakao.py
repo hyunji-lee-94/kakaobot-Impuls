@@ -1,31 +1,9 @@
 import json
-import subprocess
 import requests
 from typing import Optional
 
 KAKAO_TOKEN_URL = "https://kauth.kakao.com/oauth/token"
 KAKAO_MEMO_SEND_URL = "https://kapi.kakao.com/v2/api/talk/memo/default/send"
-
-
-def update_infisical_secret(secret_name: str, secret_value: str, env: str = "prod", path: str = "/KAKAO") -> bool:
-    """Infisical에 secret 업데이트"""
-    try:
-        result = subprocess.run(
-            ["infisical", "secrets", "set", f"{secret_name}={secret_value}", 
-             "--env", env, "--path", path],
-            capture_output=True,
-            text=True,
-            timeout=30
-        )
-        if result.returncode == 0:
-            print(f"✅ Infisical 업데이트 완료: {secret_name}")
-            return True
-        else:
-            print(f"❌ Infisical 업데이트 실패: {result.stderr}")
-            return False
-    except Exception as e:
-        print(f"❌ Infisical 업데이트 오류: {e}")
-        return False
 
 
 class KakaoClient:
@@ -47,11 +25,14 @@ class KakaoClient:
         r.raise_for_status()
         data = r.json()
         
-        # 새 refresh_token이 발급되면 Infisical에 자동 업데이트
+        # 새 refresh_token이 발급되면 경고 출력 (수동으로 Infisical 업데이트 필요)
         if "refresh_token" in data:
             new_token = data["refresh_token"]
-            print(f"🔄 새 refresh_token 발급됨, Infisical 업데이트 중...")
-            update_infisical_secret("KAKAO_REFRESH_TOKEN", new_token)
+            print("=" * 60)
+            print("⚠️  새 refresh_token이 발급되었습니다!")
+            print("    Infisical의 KAKAO_REFRESH_TOKEN을 업데이트하세요:")
+            print(f"    {new_token}")
+            print("=" * 60)
             self.refresh_token = new_token
         
         return data["access_token"]
