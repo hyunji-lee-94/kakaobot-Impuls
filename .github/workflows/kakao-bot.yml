@@ -46,6 +46,12 @@ jobs:
           client-id: ${{ secrets.INFISICAL_IDENTITY_ID }}
           client-secret: ${{ secrets.INFISICAL_IDENTITY_SECRET }}
 
+      - name: Debug - Check secrets loaded
+        run: |
+          echo "KAKAO_REST_API_KEY exists: $([[ -n \"$KAKAO_REST_API_KEY\" ]] && echo 'YES' || echo 'NO')"
+          echo "KAKAO_REFRESH_TOKEN exists: $([[ -n \"$KAKAO_REFRESH_TOKEN\" ]] && echo 'YES' || echo 'NO')"
+          echo "KAKAO_CLIENT_SECRET exists: $([[ -n \"$KAKAO_CLIENT_SECRET\" ]] && echo 'YES' || echo 'NO')"
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
