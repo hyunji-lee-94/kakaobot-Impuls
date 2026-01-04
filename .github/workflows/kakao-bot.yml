@@ -75,11 +75,12 @@ jobs:
 
       - name: Run bot
         run: |
-          python -m english_bot.main --mode ${{ steps.mode.outputs.mode }}
+          python -u -m english_bot.main --mode ${{ steps.mode.outputs.mode }}
         env:
           TZ: Asia/Seoul
           IDIOM_DIR: data/english-data
           STATE_PATH: data/english-data/state/state.json
+          PYTHONUNBUFFERED: "1"
 
       # -------- (C) state.json 변경사항 커밋 --------
       - name: Commit state if changed
