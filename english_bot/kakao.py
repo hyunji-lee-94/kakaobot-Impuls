@@ -25,15 +25,13 @@ class KakaoClient:
         r.raise_for_status()
         data = r.json()
         
-        # 새 refresh_token이 발급되면 경고 출력 (수동으로 Infisical 업데이트 필요)
+        # 새 refresh_token이 발급되면 경고만 출력 (토큰 값은 보안상 출력 안 함)
         if "refresh_token" in data:
-            new_token = data["refresh_token"]
             print("=" * 60)
             print("⚠️  새 refresh_token이 발급되었습니다!")
-            print("    Infisical의 KAKAO_REFRESH_TOKEN을 업데이트하세요:")
-            print(f"    {new_token}")
+            print("    로컬에서 다시 실행하여 Infisical을 업데이트하세요.")
             print("=" * 60)
-            self.refresh_token = new_token
+            self.refresh_token = data["refresh_token"]
         
         return data["access_token"]
 
