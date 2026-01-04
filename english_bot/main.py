@@ -21,9 +21,12 @@ def entries_by_id(entries):
     return {e.id: e for e in entries}
 
 def process_track(track: str, mode: str, entries, tstate, tz: str, kakao: KakaoClient, access: str):
+    print(f"[DEBUG] process_track({track}, {mode}) started")
     # 데이터가 비어있으면 안내 메시지 전송
     if not entries:
-        kakao.send_text(access, f"[{track.upper()}] ⚠️ 데이터가 비어있습니다. input data를 입력해주세요.")
+        print(f"[DEBUG] {track}: No entries, sending empty message...")
+        result = kakao.send_text(access, f"[{track.upper()}] ⚠️ 데이터가 비어있습니다. input data를 입력해주세요.")
+        print(f"[DEBUG] {track}: send_text result = {result}")
         return
 
     id_map = entries_by_id(entries)
@@ -37,7 +40,9 @@ def process_track(track: str, mode: str, entries, tstate, tz: str, kakao: KakaoC
         tstate.history_ids = list(used)
 
         msg = morning_message(tz, picked)
-        kakao.send_text(access, f"[{track.upper()}]\n{msg}")
+        print(f"[DEBUG] {track}: Sending morning message (len={len(msg)})...")
+        result = kakao.send_text(access, f"[{track.upper()}]\n{msg}")
+        print(f"[DEBUG] {track}: send_text result = {result}")
         return
 
     if mode == "night":
@@ -56,7 +61,9 @@ def process_track(track: str, mode: str, entries, tstate, tz: str, kakao: KakaoC
             review_items = all_items[:min(6, len(all_items))]
             msg = night_examples_ko(tz, review_items, count=6)
 
-        kakao.send_text(access, f"[{track.upper()}]\n{msg}")
+        print(f"[DEBUG] {track}: Sending night message (len={len(msg)})...")
+        result = kakao.send_text(access, f"[{track.upper()}]\n{msg}")
+        print(f"[DEBUG] {track}: send_text result = {result}")
         return
 
     raise ValueError("mode must be morning|night")
@@ -80,13 +87,20 @@ def run(mode: str):
     kakao = KakaoClient(s.kakao_rest_api_key, s.kakao_refresh_token, s.kakao_client_secret)
     print("[DEBUG] KakaoClient created, refreshing token...")
     access = kakao.refresh_access_token()
-    print("[DEBUG] Access token obtained!")
+    print(f"[DEBUG] Access token obtained! (length={len(access) if access else 0})")
 
     # ✅ 낮/밤 모두 C 따로, B 따로 전송
+    print("[DEBUG] Processing track C...")
     process_track("c", mode, entries_c, st.c, s.timezone, kakao, access)
+    print("[DEBUG] Track C done!")
+    
+    print("[DEBUG] Processing track B...")
     process_track("b", mode, entries_b, st.b, s.timezone, kakao, access)
+    print("[DEBUG] Track B done!")
 
+    print("[DEBUG] Saving state...")
     save_state(s.state_path, st)
+    print("[DEBUG] All done!")
 
 def main():
     ap = argparse.ArgumentParser()

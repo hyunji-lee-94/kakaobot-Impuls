@@ -40,12 +40,15 @@ class KakaoClient:
         return data["access_token"]
 
     def send_memo_default(self, access_token: str, template_object: dict) -> dict:
+        print("[DEBUG] send_memo_default() called")
         headers = {
             "Authorization": f"Bearer {access_token}",
             "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",
         }
         data = {"template_object": json.dumps(template_object, ensure_ascii=False)}
+        print("[DEBUG] Sending memo to Kakao...")
         r = requests.post(KAKAO_MEMO_SEND_URL, headers=headers, data=data, timeout=30)
+        print(f"[DEBUG] Memo response status: {r.status_code}")
         r.raise_for_status()
         return r.json()
 
