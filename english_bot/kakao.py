@@ -12,7 +12,10 @@ class KakaoClient:
         self.refresh_token = refresh_token
         self.client_secret = client_secret
 
-    def refresh_access_token(self) -> str:
+    def refresh_access_token(self) -> tuple[str, int | None]:
+        """
+        Returns: (access_token, refresh_token_expires_in_days or None)
+        """
         print("[DEBUG] refresh_access_token() called")
         payload = {
             "grant_type": "refresh_token",
@@ -29,15 +32,22 @@ class KakaoClient:
         data = r.json()
         print("[DEBUG] Token response received")
         
+        # refresh_token 만료까지 남은 일수 계산
+        refresh_expires_in = data.get("refresh_token_expires_in")  # 초 단위
+        days_remaining = None
+        if refresh_expires_in:
+            days_remaining = refresh_expires_in // 86400  # 초 → 일
+            print(f"[DEBUG] Refresh token expires in {days_remaining} days")
+        
         # 새 refresh_token이 발급되면 경고만 출력 (토큰 값은 보안상 출력 안 함)
         if "refresh_token" in data:
             print("=" * 60)
-            print("⚠️  새 refresh_token이 발급되었습니다!")
-            print("    로컬에서 다시 실행하여 Infisical을 업데이트하세요.")
+            print("⚠️  NEW refresh_token issued!")
+            print("    Please update Infisical manually from local.")
             print("=" * 60)
             self.refresh_token = data["refresh_token"]
         
-        return data["access_token"]
+        return data["access_token"], days_remaining
 
     def send_memo_default(self, access_token: str, template_object: dict) -> dict:
         print("[DEBUG] send_memo_default() called")

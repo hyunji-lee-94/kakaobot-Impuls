@@ -39,7 +39,13 @@ def process_track(track: str, mode: str, entries, tstate, tz: str, kakao: KakaoC
         tstate.today_ids = [e.id for e in picked]
         tstate.history_ids = list(used)
 
-        msg = morning_message(tz, picked)
+        # 모든 표현 학습 완료
+        if not picked:
+            msg = "🎉 Congratulations!\nYou've completed all expressions for this month.\nNew content coming next month!"
+            print(f"[DEBUG] {track}: All expressions completed!")
+        else:
+            msg = morning_message(tz, picked)
+        
         print(f"[DEBUG] {track}: Sending morning message (len={len(msg)})...")
         result = kakao.send_text(access, f"[{track.upper()}]\n{msg}")
         print(f"[DEBUG] {track}: send_text result = {result}")
@@ -86,8 +92,16 @@ def run(mode: str):
 
     kakao = KakaoClient(s.kakao_rest_api_key, s.kakao_refresh_token, s.kakao_client_secret)
     print("[DEBUG] KakaoClient created, refreshing token...")
-    access = kakao.refresh_access_token()
+    access, days_remaining = kakao.refresh_access_token()
     print(f"[DEBUG] Access token obtained! (length={len(access) if access else 0})")
+    
+    # 토큰 만료 임박 경고 (1일 이하)
+    if days_remaining is not None and days_remaining <= 1:
+        print("=" * 60)
+        print("🚨 TOKEN_RENEWAL_NEEDED 🚨")
+        print(f"Refresh token expires in {days_remaining} day(s)!")
+        print("Please renew your Kakao token immediately.")
+        print("=" * 60)
 
     # ✅ 낮/밤 모두 C 따로, B 따로 전송
     print("[DEBUG] Processing track C...")
