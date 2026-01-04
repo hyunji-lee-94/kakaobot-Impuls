@@ -36,7 +36,7 @@ jobs:
       # -------- (A) Infisical secrets 주입 --------
       # 이 단계에서 KAKAO_* 값들이 env로 들어옴
       - name: Load secrets from Infisical
-        uses: Infisical/secrets-action@v1
+        uses: Infisical/secrets-action@v1.0.20
         with:
           host: https://app.infisical.com
           projectId: ${{ secrets.INFISICAL_PROJECT_ID }}
