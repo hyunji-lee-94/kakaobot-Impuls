@@ -41,13 +41,24 @@ def load_entries(path: str) -> list[Entry]:
 def pick_next(entries: list[Entry], cursor: int, n: int, used: set[str]) -> tuple[list[Entry], int]:
     picked = []
     i = cursor
+    checked = 0  # 무한루프 방지: 전체 entry 수만큼만 체크
+    
     # 순회하면서 used에 없는 것만 pick
-    while len(picked) < n and len(picked) < len(entries):
+    while len(picked) < n and checked < len(entries):
         e = entries[i % len(entries)]
         if e.id not in used:
             picked.append(e)
             used.add(e.id)
         i += 1
+        checked += 1
+    
+    # 새로 뽑을 게 없으면 (모두 used) 처음부터 다시
+    if not picked and entries:
+        print("[DEBUG] All entries used, resetting for new cycle...")
+        for j in range(min(n, len(entries))):
+            picked.append(entries[(cursor + j) % len(entries)])
+        i = cursor + len(picked)
+    
     return picked, (i % len(entries))
 
 def pick_random(entries: list[Entry], k: int, seed: str | None = None) -> list[Entry]:
