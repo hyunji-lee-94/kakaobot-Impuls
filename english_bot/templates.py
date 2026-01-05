@@ -9,7 +9,7 @@ def header_date(tz: str) -> str:
     now = dt.datetime.now(ZoneInfo(tz))
     return f"{_WEEKDAYS_EN[now.weekday()]}, {now.strftime('%B')} {now.day}, {now.year}"
 
-def morning_message(tz: str, items: list[Entry]) -> str:
+def morning_message(tz: str, items: list[Entry], max_examples: int = 2) -> str:
     """Morning vocabulary delivery"""
     lines = [
         f"📚 Daily Expressions",
@@ -23,13 +23,13 @@ def morning_message(tz: str, items: list[Entry]) -> str:
         lines.append(f"  → {e.meaning_ko}")
         lines.append("")
         
-        # 모든 예문 출력
-        for j, ex in enumerate(e.examples, 1):
+        # 예문 max_examples개만 출력
+        for j, ex in enumerate(e.examples[:max_examples], 1):
             if ex.en:
                 lines.append(f"  📝 {ex.en}")
             if ex.ko:
                 lines.append(f"  💬 {ex.ko}")
-            if j < len(e.examples):
+            if j < min(len(e.examples), max_examples):
                 lines.append("")  # 예문 사이 구분
         lines.append("")
     
