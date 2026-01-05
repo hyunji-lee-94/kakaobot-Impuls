@@ -33,7 +33,7 @@ def process_track(track: str, mode: str, entries, tstate, tz: str, kakao: KakaoC
 
     if mode == "morning":
         used = set(tstate.history_ids)
-        picked, new_cursor = pick_next(entries, tstate.cursor, 4, used)
+        picked, new_cursor = pick_next(entries, tstate.cursor, 1, used)
         tstate.cursor = new_cursor
         tstate.yesterday_ids = tstate.today_ids
         tstate.today_ids = [e.id for e in picked]

@@ -14,7 +14,7 @@ def morning_message(tz: str, items: list[Entry], max_examples: int = 2) -> str:
     lines = [
         f"📚 Daily Expressions",
         f"{header_date(tz)}",
-        "─" * 20,
+        "─" * 15,
         ""
     ]
     
