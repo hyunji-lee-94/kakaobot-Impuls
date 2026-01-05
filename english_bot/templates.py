@@ -9,7 +9,7 @@ def header_date(tz: str) -> str:
     now = dt.datetime.now(ZoneInfo(tz))
     return f"{_WEEKDAYS_EN[now.weekday()]}, {now.strftime('%B')} {now.day}, {now.year}"
 
-def morning_message(tz: str, items: list[Entry], max_examples: int = 2) -> str:
+def morning_message(tz: str, items: list[Entry], max_examples: int = 1) -> str:
     """Morning vocabulary delivery"""
     lines = [
         f"📚 Daily Expressions",
