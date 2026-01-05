@@ -35,8 +35,11 @@ def morning_message(tz: str, items: list[Entry], max_examples: int = 1) -> str:
     
     return "\n".join(lines).strip()
 
-def night_examples_ko(tz: str, items: list[Entry], count: int = 6) -> str:
-    """Evening review quiz - Korean sentences"""
+def night_examples_ko(tz: str, items: list[Entry], count: int = 6, max_examples: int = 1) -> str:
+    """Evening review quiz - Korean sentences
+    
+    max_examples: 각 idiom당 사용할 예문 수 (나중에 2로 늘릴 예정)
+    """
     lines = [
         f"🌙 Evening Review",
         f"{header_date(tz)}",
@@ -46,10 +49,10 @@ def night_examples_ko(tz: str, items: list[Entry], count: int = 6) -> str:
         ""
     ]
     
-    # 모든 예문 수집 (각 entry의 모든 examples에서)
+    # 각 idiom에서 max_examples개의 예문만 수집
     all_examples = []
     for e in items:
-        for ex in e.examples:
+        for ex in e.examples[:max_examples]:
             if ex.ko:
                 all_examples.append((ex.ko, e.idiom))
     
@@ -72,8 +75,11 @@ def night_examples_ko(tz: str, items: list[Entry], count: int = 6) -> str:
     
     return "\n".join(lines).strip()
 
-def month_end_quiz(tz: str, items: list[Entry]) -> str:
-    """Monthly review quiz - mixed format"""
+def month_end_quiz(tz: str, items: list[Entry], max_examples: int = 1) -> str:
+    """Monthly review quiz - mixed format
+    
+    max_examples: 각 idiom당 사용할 예문 수 (나중에 2로 늘릴 예정)
+    """
     lines = [
         f"📝 Monthly Review Quiz",
         f"{header_date(tz)}",
@@ -85,10 +91,10 @@ def month_end_quiz(tz: str, items: list[Entry]) -> str:
         lines.append("No quiz data available.")
         return "\n".join(lines).strip()
     
-    # 모든 예문 수집
+    # 각 idiom에서 max_examples개의 예문만 수집
     all_examples = []
     for e in items:
-        for ex in e.examples:
+        for ex in e.examples[:max_examples]:
             all_examples.append((e.idiom, e.meaning_ko, ex.en, ex.ko))
     
     # 3 quiz types: ko→exp, en→exp, exp→def
