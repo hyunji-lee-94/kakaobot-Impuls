@@ -3,7 +3,7 @@ name: Kakao Daily Bot
 on:
   schedule:
     # KST 09:00 = UTC 00:00
-    - cron: "12 0 * * *"
+    - cron: "12 2 * * *"
     # KST 22:00 = UTC 13:00
     - cron: "7 13 * * *"
   workflow_dispatch:
