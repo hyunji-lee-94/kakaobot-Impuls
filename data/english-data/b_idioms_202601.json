@@ -52,7 +52,7 @@
       "examples": [
         {
           "en": "The project was completed ahead of schedule.",
-          "ko": "파이프라인 마이그레이션이 예정보다 빨리 완료되었습니다."
+          "ko": "그 프로젝트는 예정보다 빨리 완료되었습니다."
         },
         {
           "en": "If we finish the report ahead of schedule, we can start the next sprint early.",
@@ -74,8 +74,8 @@
       "meaning_ko": "책임을 지다, 책임을 맡다",
       "examples": [
         {
-          "en": "I’ll take responsibility for monitoring the data quality checks.",
-          "ko": "데이터 품질 검증 모니터링은 제가 책임지고 맡겠습니다."
+          "en": "I’ll take responsibility for monitoring the product quality checks.",
+          "ko": "상품 품질 검증 모니터링은 제가 책임지고 맡겠습니다."
         },
         {
           "en": "As the manager, I take full responsibility for the delay in the project.",
