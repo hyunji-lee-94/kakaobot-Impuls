@@ -1,11 +1,14 @@
 name: Kakao Daily Bot
 
 on:
-  schedule:
-    # KST 11:12 = UTC 2:12
-    - cron: "12 2 * * *"
-    # KST 22:07 = UTC 13:07
-    - cron: "7 13 * * *"
+  # ❌ GitHub schedule 비활성화 (cron-job.org가 대신 트리거함)
+  # schedule:
+  #   # KST 11:12 = UTC 2:12
+  #   - cron: "12 2 * * *"
+  #   # KST 22:07 = UTC 13:07
+  #   - cron: "7 13 * * *"
+  
+  # ✅ cron-job.org에서 workflow_dispatch로 트리거
   workflow_dispatch:
     inputs:
       mode:
