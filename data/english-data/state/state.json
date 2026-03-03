@@ -1,1 +1,15 @@
-
+{
+  "c": {
+    "cursor": 0,
+    "today_ids": [],
+    "yesterday_ids": [],
+    "history_ids": []
+  },
+  "b": {
+    "cursor": 0,
+    "today_ids": [],
+    "yesterday_ids": [],
+    "history_ids": []
+  },
+  "meta": {}
+}
